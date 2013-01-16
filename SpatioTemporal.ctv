@@ -1,0 +1,298 @@
+<CRANTaskView>
+
+  <name>SpatioTemporal</name>
+  <topic>Handling and Analyzing Spatio-Temporal Data</topic>
+  <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
+  <version>2013-01-05</version>
+
+  <info>
+  <p>This task view aims at presenting the useful R packages for the analysis
+  of spatio-temporal data.</p>
+  <p>Please let the
+  <a href="mailto:edzer.pebesma@uni-muenster.de">maintainer</a> know if
+  something is inaccurate or missing.</p>
+
+  <p>
+  Although one could argue that all data spatio-temporal, as they
+  must have been taken somewhere and at some point in time, in
+  many cases the spatial locations or times of observation are not
+  registered, and irrelevant to the purpose of the study. Here,
+  we will address the cases where both location <em>and</em> time
+  of observation are registered, and relevant for the analysis of
+  the data.  The <view>Spatial</view> and <view>TimeSeries</view>
+  task views shed light on spatial, and temporal data handling and
+  analysis, individually.
+  </p>
+
+  <p><strong>Representing data</strong></p>
+  <ul>
+  <li><b>In long tables:</b>
+  In some cases, spatio-temporal data can be held in tables
+  (<code>data.frame</code> objects), with longitude, latitude and
+  time as three of the columns, or an identifier for a location
+  or region and time as columns. For instance, data sets in
+  package <pkg>plm</pkg> for linear panel models have repeated
+  observations for observational units, where these units often
+  refer to spatial areas (countries, states) by an index. This index
+  (a name, or number) can be matched to the spatial coordinates
+  (polygons) of the corresponding area, an example of this is given
+  <a href="http://www.jstatsoft.org/v51/i07/">here</a>. As these
+  data sets usually contain more than one attribute, to hold the
+  data in a two-dimensional table a <em>long table</em> form is
+  chosen, where each record contains the index of the observational
+  unit, observation time, and all attributes.
+  </li>
+
+  <li><b>In time-wide tables:</b>
+  When a single attribute is considered, another layout is that
+  of the <em>time-wide table</em>, where each observational
+  unit forms a record and each column an observation time.
+  <a href="http://www.gapminder.org/world/">Gapminder world</a> is a tool
+  that lets you visualize a lot of economic and health indicators
+  per country; the site gives access to the underlying <a
+  href="http://www.gapminder.org/data/">tables</a> in time-wide
+  form, and <pkg>googleVis</pkg> lets you analyze your own data in
+  a similar way.  </li>
+
+  <li><b>Generic classes:</b>
+  Formal classes for spatio-temporal data in R are provided by
+  the <pkg>spacetime</pkg> package, which offers S4 classes for
+  full space-time grids (every observational unit contains an
+  observation for each observation time), sparse space-time grids
+  (regular, but incomplete grids), irregular space-time data
+  (each observational unit is observed at its own time), and
+  has limited support for trajectory data. <pkg>spacetime</pkg>
+  classes have <pkg>sp</pkg> and <pkg>xts</pkg> objects as slots
+  for the spatial and temporal components, and can deal with all
+  spatial classes (points, lines, polygons, grids) of <pkg>sp</pkg>,
+  regular and irregular time series, and extend the powerful methods
+  (selection, aggregation, plotting coercion) from both packages.
+  </li>
+
+  <li><b>Dedicated classes:</b> dedicated classes are offered for
+  <ul>
+	<li><b>Geostatistical data:</b>
+    Package <pkg>SpatioTemporal</pkg> offers an S3 class
+    <code>STdata</code> which holds point observations and covariates
+    that can vary in space, time, and space-time, with the aim of
+	fitting and predicting a particular class of spatio-temporal models,
+	described in its vignettes.
+	</li>
+
+    <li><b>Gridded/raster data:</b> package <pkg>raster</pkg> deals with
+	sets of rasters (called bricks, or stacks), and a 
+	set may reflect a temporal sequence
+	(use <code>setZ</code> on a brick or stack)
+    </li>
+
+	<li><b>Lattice data:</b> package <pkg>surveillance</pkg>
+	provides a class <code>sts</code>, which holds a
+	<code>SpatialPolygonsDataFrame</code> slot for the areas, and
+	numeric slots to define a regular time series (no time objects, 
+	such as <code>POSIXct</code>).
+	</li>
+
+	<li><b>Point patterns:</b>
+	  package <pkg>stpp</pkg> provides a class <code>stpp</code>
+	  for a space-time point pattern;
+
+	  package <pkg>stppResid</pkg> provides a class <code>stwin</code>
+	  for a space-time cuboid, defining a (rectangular)
+	  space-time window, and class <code>stpp</code> for a
+	  spatio-temporal point pattern (including window).
+	</li>
+
+	<li><b>Trajectory data:</b>
+    Package <pkg>adehabitatLT</pkg> offers a class <code>ltraj</code>
+    for trajectories, and methods for analyzing them; package
+	<pkg>trip</pkg> extends <pkg>sp</pkg>-based classes for trajectories.
+	</li>
+
+  </ul>
+  </li>
+
+  </ul>
+
+  <strong>Analyzing data</strong>
+
+  <ul>
+    <li><b>Geostatistical data</b>
+	  <ul>
+	  <li><pkg>gstat</pkg> provides kriging, methods of moments
+	  variogram estimation and model fitting for a limited
+	  range of spatio-temporal models;
+	  </li>
+
+	   <li>
+       <pkg>RandomFields</pkg> provides kriging, conditional simulation,
+       and covariance functions and maximum likelihood function fitting
+	   for a very wide range of spatio-temporal covariance models;
+	   </li>
+
+	   <li>
+	   the <pkg>spTimer</pkg> package is able to fit,
+	   spatially predict and temporally forecast large amounts
+	   of space-time data using Bayesian Gaussian Process
+	   (GP) Models, Bayesian Auto-Regressive (AR) Models,
+	   and Bayesian Gaussian Predictive Processes (GPP)
+	   based AR Models.
+	   </li>
+
+	  </ul>
+
+	</li>
+
+    <li><b>Point patterns</b>
+	  <ul>
+	  <li>
+	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/index.html"
+	  >ptproc</a> (off-CRAN) provides methods and classes for spatio-temporal 
+	  (``multi-dimensional'') point process;
+	  </li>
+
+	  <li>
+	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process;
+	  </li>
+
+	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualisation and analysis;
+	  </li>
+
+	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
+	  </li>
+
+
+	  </ul>
+	</li>
+
+    <li><b>Lattice data</b>
+	<pkg>surveillance</pkg> provides temporal and spatio-temporal
+	modeling and monitoring of epidemic phenomena;
+	</li>
+
+    <li><b>Moving objects, trajectories</b>
+	 <ul>
+	 <li><pkg>adehabitatLT</pkg> provids a	collection of tools
+	 for the analysis of animal movements, including biased random walk 
+	 simulation and home range estimation;
+	 </li>
+
+	 <li>package <pkg>trip</pkg> provides functions for accessing
+	 and manipulating spatial data for animal tracking. Filter
+	 for speed and create time spent plots from animal track
+	 data; and <pkg>tripEstimation</pkg> provides a Metropolis
+	 sampler and supporting functions for estimating animal
+	 movement from archival tags and satellite fixes;
+
+	 Data handling and estimation functions for animal movement estimation from archival or satellite tags. Helper functions are included for making image summaries binned by time interval from MCMC simulations of point data.
+	 </li>
+
+	 <li><pkg>diveMove</pkg> provides tilities to represent,
+	 visualize, filter, analyse, and summarize time-depth
+	 recorder (TDR) data; miscellaneous functions for handling
+	 location data are also provided.  
+	 </li>
+
+	 </ul>
+	</li>
+  </ul>
+
+  <p><strong>Visualisation</strong></p>
+	<ul>
+	<li>package <pkg>plotKML</pkg> provides methods to convert
+	spatio-temporal data into KML files, which can be displayed
+	by external viewers, in particular google earth;
+	</li>
+
+	<li>
+	package <pkg>googleVis</pkg> provides an interface to show R data (tables) in the
+	<a href="https://developers.google.com/chart/">google chart</a> tools;
+	</li>
+
+	<li>
+	package <pkg>stpp</pkg> provides animation and 3D interactive plots (using <pkg>rgl</pkg>) for displaying spatio-temporal point patterns;
+	</li>
+
+	<li>
+	<pkg>mvtsplot</pkg> provides multivariate time series plots,
+	with examples on spatio-temporal data, published in <a
+	href="http://www.jstatsoft.org/v25/c01/paper">jstatsoft</a>.
+	</li>
+
+	<li>
+    <a href="http://www.gapminder.org/world/">Gapminder world</a> allows interactive
+	dynamic visualisation of country-wise data;
+	</li>
+	</ul>
+
+  <p><strong>Data sets</strong></p>
+  <ul>
+  <li>table data for fitting linear panel models are found in <pkg>plm</pkg>;
+  </li>
+  <li>package <pkg>cshapes</pkg> contains a data base with country boundaries,
+  varying over time;
+  </li>
+  <li><pkg>gstat</pkg> contains the classic Irish wind data;
+  </li>
+  <li><pkg>spacetime</pkg> contains rural PM10 air quality 
+  measurements over Germany.
+  </li>
+  </ul>
+
+  <p><strong>Retrieving data</strong></p>
+  Packages for retrieving data are:
+
+  <ul>
+  <li>package <pkg>openair</pkg> has tools to analyse, interpret and understand air pollution data, but also tools to download UK air quality data
+  </li>
+
+  <li>
+  <pkg>sos4R</pkg> provides methods to request data from a <a
+  href="http://www.opengeospatial.org/standards/sos">sensor
+  observation service</a>
+  </li>
+
+  <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
+  mortality, weather, and air pollution data from the National
+  Morbidity, Mortality, and Air Pollution Study for 108 U.S. cities
+  (1987--2000); data are obtained from the Internet-based Health
+  and Air Pollution Surveillance System (iHAPSS)
+  </li>
+  </ul>
+
+  </info>
+
+  <packagelist>
+    <pkg>cshapes</pkg>
+    <pkg>splm</pkg>
+    <pkg priority="core">adehabitatLT</pkg>
+    <pkg                >cshapes</pkg>
+    <pkg                >diveMove</pkg>
+    <pkg                >googleVis</pkg>
+    <pkg priority="core">gstat</pkg>
+    <pkg                >lgcp</pkg>
+    <pkg                >mvtsplot</pkg>
+    <pkg                >NMMAPSlite</pkg>
+    <pkg priority="core">plotKML</pkg>
+    <pkg priority="core">RandomFields</pkg>
+    <pkg priority="core">openair</pkg>
+    <pkg priority="core">raster</pkg>
+    <pkg                >sos4R</pkg>
+    <pkg priority="core">spacetime</pkg>
+    <pkg                >SpatioTemporal</pkg>
+    <pkg                >spTimer</pkg>
+    <pkg priority="core">stpp</pkg>
+    <pkg                >stppResid</pkg>
+    <pkg priority="core">surveillance</pkg>
+    <pkg priority="core">trip</pkg>
+    <pkg                >tripEstimation</pkg>
+  </packagelist>
+
+  <links>
+    <view>Spatial</view>
+    <view>TimeSeries</view>
+    <view>Econometry</view>
+    <view>Environmetrics</view>
+    <view>DifferentialEquations</view>
+  </links>
+
+</CRANTaskView>
