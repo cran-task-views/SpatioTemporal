@@ -297,7 +297,6 @@
   </info>
 
   <packagelist>
-    <pkg                >cshapes</pkg>
     <pkg priority="core">adehabitatLT</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
@@ -306,10 +305,10 @@
     <pkg                >lgcp</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >NMMAPSlite</pkg>
-    <pkg priority="core">plotKML</pkg>
-    <pkg priority="core">RandomFields</pkg>
-    <pkg priority="core">openair</pkg>
+    <pkg                >openair</pkg>
     <pkg                >plm</pkg>
+    <pkg                >plotKML</pkg>
+    <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >sos4R</pkg>
     <pkg priority="core">spacetime</pkg>
