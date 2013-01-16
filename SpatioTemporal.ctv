@@ -118,10 +118,10 @@
   <ul>
     <li><b>Geostatistical data</b>
 	  <ul>
-	  <li><pkg>gstat</pkg> provides kriging, methods of moments
-	  variogram estimation and model fitting for a limited
-	  range of spatio-temporal models;
-	  </li>
+	   <li><pkg>gstat</pkg> provides kriging, methods of moments
+	   variogram estimation and model fitting for a limited
+	   range of spatio-temporal models;
+	   </li>
 
 	   <li>
        <pkg>RandomFields</pkg> provides kriging, conditional simulation,
@@ -138,6 +138,17 @@
 	   based AR Models.
 	   </li>
 
+	   <li><pkg>Stem</pkg> provides estimation of the parameters
+	   of a spatio-temporal model using the EM algorithm,
+	   estimation of the parameter standard errors using a
+	   spatio-temporal parametric bootstrap, spatial mapping.</li>
+
+	   <li><pkg>spate</pkg> provides spatio-temporal modeling
+	   of large data using a spectral SPDE approach. </li>
+
+	   <li><pkg>pastecs</pkg> is a package for the regulation, decomposition
+	   and analysis of space-time series. </li>
+
 	  </ul>
 
 	</li>
@@ -145,10 +156,9 @@
     <li><b>Point patterns</b>
 	  <ul>
 	  <li>
-	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/index.html"
-	  >ptproc</a> (off-CRAN) provides methods and classes for spatio-temporal 
-	  (``multi-dimensional'') point process;
-	  </li>
+	  <pkg>splancs</pkg> provides methods for spatial and
+	  space-time point pattern analysis (khat, kernel3d,
+	  visualizing) </li>
 
 	  <li>
 	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process;
@@ -160,13 +170,34 @@
 	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
 	  </li>
 
+	  <li> <pkg>stam</pkg>	is an evolving package that target on
+	  the various methods to conduct Spatio-Temporal Analysis and
+	  Modelling,including Exploratory Spatio-Temporal Analysis
+	  and Inferred Spatio-Temporal Modelling, currently provides
+	  mostly kernel density estimation.</li>
 
+	  <li>
+	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/index.html"
+	  >ptproc</a> (off-CRAN) provides methods and classes for spatio-temporal 
+	  (``multi-dimensional'') point process;
+	  </li>
 	  </ul>
 	</li>
 
     <li><b>Lattice data</b>
-	<pkg>surveillance</pkg> provides temporal and spatio-temporal
-	modeling and monitoring of epidemic phenomena;
+	 <ul>
+	 <li><pkg>surveillance</pkg> provides temporal and spatio-temporal
+	 modeling and monitoring of epidemic phenomena;
+	 </li>
+
+	 <li>
+	 <pkg>plm</pkg> fits linear panel models
+	 </li>
+	 
+	 <li><pkg>splm</pkg> provides estimation and diagnostic
+	 testing of econometric models for spatial panel data; </li>
+
+	 </ul>
 	</li>
 
     <li><b>Moving objects, trajectories</b>
@@ -209,7 +240,7 @@
 	</li>
 
 	<li>
-	package <pkg>stpp</pkg> provides animation and 3D interactive plots (using <pkg>rgl</pkg>) for displaying spatio-temporal point patterns;
+	package <pkg>stpp</pkg> and <pkg>splancs</pkg> provide animation and 3D interactive plots (using <pkg>rgl</pkg>) for displaying spatio-temporal point patterns;
 	</li>
 
 	<li>
@@ -235,6 +266,10 @@
   </li>
   <li><pkg>spacetime</pkg> contains rural PM10 air quality 
   measurements over Germany.
+  </li>
+  <li>
+  Some parts of the Cressie and Wikle (2011) book ``Statistics for spatio-temporal
+  data'' can be reproduced by <code>demo(CressieWikle)</code> in <pkg>spacetime</pkg>
   </li>
   </ul>
 
@@ -262,8 +297,7 @@
   </info>
 
   <packagelist>
-    <pkg>cshapes</pkg>
-    <pkg>splm</pkg>
+    <pkg                >cshapes</pkg>
     <pkg priority="core">adehabitatLT</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
@@ -275,11 +309,16 @@
     <pkg priority="core">plotKML</pkg>
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">openair</pkg>
+    <pkg                >plm</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >sos4R</pkg>
     <pkg priority="core">spacetime</pkg>
+    <pkg                >spate</pkg>
     <pkg                >SpatioTemporal</pkg>
+    <pkg                >splm</pkg>
     <pkg                >spTimer</pkg>
+    <pkg                >stam</pkg>
+    <pkg                >Stem</pkg>
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
@@ -294,5 +333,6 @@
     <view>Environmetrics</view>
     <view>DifferentialEquations</view>
   </links>
+  <!-- what about <pkg>LICORS</pkg>, <pkg>LSC</pkg>? -->
 
 </CRANTaskView>
