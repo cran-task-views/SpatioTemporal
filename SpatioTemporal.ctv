@@ -149,6 +149,14 @@
 	   <li><pkg>pastecs</pkg> is a package for the regulation, decomposition
 	   and analysis of space-time series. </li>
 
+	   <li>r-forge package <a
+	   href="https://r-forge.r-project.org/projects/spcopula/">spcopula</a>
+	   provides a framework to analyse via copulas spatial
+	   and spatio-temporal data provided in the format of the
+	   spacetime package. Additionally, support for calculating
+	   different multivariate return periods is implemented.
+	   </li>
+
 	  </ul>
 
 	</li>
