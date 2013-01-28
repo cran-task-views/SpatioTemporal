@@ -13,6 +13,11 @@
   something is inaccurate or missing.</p>
 
   <p>
+  The following people contributed to this task view: Roger Bivand, Achim
+  Zeileis.
+  </p>
+
+  <p>
   Although one could argue that all data are spatio-temporal, as they
   must have been taken somewhere and at some point in time, in
   many cases the spatial locations or times of observation are not
@@ -132,6 +137,11 @@
 	   (GP) Models, Bayesian Auto-Regressive (AR) Models,
 	   and Bayesian Gaussian Predictive Processes (GPP)
 	   based AR Models.
+	   </li>
+
+	   <li>Package <pkg>SpatioTemporal</pkg> fits and predicts
+	   a particular class of spatio-temporal models, described
+	   in detail in its vignettes.
 	   </li>
 
 	   <li><pkg>Stem</pkg> provides estimation of the parameters
