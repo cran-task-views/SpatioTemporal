@@ -14,7 +14,7 @@
 
   <p>
   The following people contributed to this task view: Roger Bivand, Achim
-  Zeileis.
+  Zeileis, Michael Sumner.
   </p>
 
   <p>
@@ -257,6 +257,31 @@
 	 visualize, filter, analyze, and summarize time-depth
 	 recorder (TDR) data; miscellaneous functions for handling
 	 location data are also provided.  
+	 </li>
+
+	 <li><pkg>argosfilter</pkg> provides unctions to filters
+	 animal satellite tracking data obtained from Argos. It is
+	 especially indicated for telemetry studies of marine
+	 animals, where Argos locations are predominantly of
+	 low-quality.
+	 </li>
+
+	 <li>
+	 <pkg>GeoLight</pkg> provides basic functions for global positioning
+	 based on light intensity measurements over time. Positioning process
+	 includes the determination of sun events, a discrimination of
+	 residency and movement periods, the calibration of period-specific
+	 data and, finally, the calculation of positions.
+	 </li>
+	 
+	 <li>
+	 crawl (<a
+	 href="http://cran.r-project.org/src/contrib/Archive/crawl/">ARCHIVED</a>):
+	 The (C)orrelated (RA)ndom (W)alk (L)ibrary of R functions
+	 was designed for fitting continuous-time correlated random
+	 walk (CTCRW) models with time indexed covariates. The
+	 model is fit using the Kalman-Filter on a state space
+	 version of the continuous-time stochastic movement process.
 	 </li>
 
 	 </ul>
