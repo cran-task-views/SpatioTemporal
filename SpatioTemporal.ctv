@@ -47,8 +47,8 @@
   When a single attribute is considered, another layout is that
   of the <em>time-wide table</em>, where each observational
   unit forms a record and each column an observation time.
-  <pkg>googleVis</pkg> lets you analyze data in a way similar to
-  gapminder (see links).  </li>
+  <pkg>googleVis</pkg> lets you analyze such data in a way similar to
+  gapminder (see links).</li>
 
   <li><b>Generic classes:</b>
   Formal classes for spatio-temporal data in R are provided by
