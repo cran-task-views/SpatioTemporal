@@ -154,6 +154,12 @@
 
 	   <li><pkg>solaR</pkg> is a package for computing Solar Radiation and Photovoltaic Systems performance.
 	   </li>
+
+	   <li><pkg>nlme</pkg> and <pkg>lme4</pkg> contains functions
+	   to fit linear mixed models, and have facilities to model
+	   spatial and/or temporal effects.
+	   </li>
+
 	  </ul>
 
 	</li>
@@ -204,6 +210,10 @@
 
 	 <li><pkg>sphet</pkg> fit spatial models with heteroskedastic
 	 innovations.</li>
+
+	 <li><pkg>nlme</pkg> and <pkg>lme4</pkg> contain functions
+	 to fit linear mixed models, and have facilities to model
+	 spatial and/or temporal effects.  </li>
 
 	 </ul>
 	</li>
