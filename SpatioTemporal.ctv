@@ -47,12 +47,8 @@
   When a single attribute is considered, another layout is that
   of the <em>time-wide table</em>, where each observational
   unit forms a record and each column an observation time.
-  <a href="http://www.gapminder.org/world/">Gapminder world</a> is a tool
-  that lets you visualize a lot of economic and health indicators
-  per country; the site gives access to the underlying <a
-  href="http://www.gapminder.org/data/">tables</a> in time-wide
-  form, and <pkg>googleVis</pkg> lets you analyze your own data in
-  a similar way.  </li>
+  <pkg>googleVis</pkg> lets you analyze data in a way similar to
+  gapminder (see links).  </li>
 
   <li><b>Generic classes:</b>
   Formal classes for spatio-temporal data in R are provided by
@@ -69,7 +65,7 @@
   (selection, aggregation, plotting coercion) from both packages.
   </li>
 
-  <li><b>Dedicated classes:</b> dedicated classes are offered for
+  <li><b>Dedicated classes:</b> dedicated classes are offered for:
   <ul>
 	<li><b>Geostatistical data:</b>
     Package <pkg>SpatioTemporal</pkg> offers an S3 class
@@ -82,7 +78,7 @@
     <li><b>Gridded/raster data:</b> package <pkg>raster</pkg> deals with
 	sets of rasters (called bricks, or stacks), and a 
 	set may reflect a temporal sequence
-	(use <code>setZ</code> on a brick or stack)
+	(use <code>setZ</code> on a brick or stack).
     </li>
 
 	<li><b>Lattice data:</b> package <pkg>surveillance</pkg>
@@ -120,13 +116,13 @@
 	  <ul>
 	   <li><pkg>gstat</pkg> provides kriging, methods of moments
 	   variogram estimation and model fitting for a limited
-	   range of spatio-temporal models;
+	   range of spatio-temporal models.
 	   </li>
 
 	   <li>
        <pkg>RandomFields</pkg> provides kriging, conditional simulation,
        and covariance functions and maximum likelihood function fitting
-	   for a very wide range of spatio-temporal covariance models;
+	   for a very wide range of spatio-temporal covariance models.
 	   </li>
 
 	   <li>
@@ -156,6 +152,8 @@
 	   different multivariate return periods is implemented.
 	   </li>
 
+	   <li><pkg>solaR</pkg> is a package for computing Solar Radiation and Photovoltaic Systems performance.
+	   </li>
 	  </ul>
 
 	</li>
@@ -165,13 +163,13 @@
 	  <li>
 	  <pkg>splancs</pkg> provides methods for spatial and
 	  space-time point pattern analysis (khat, kernel3d,
-	  visualizing) </li>
+	  visualizing). </li>
 
 	  <li>
-	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process;
+	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process.
 	  </li>
 
-	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualization and analysis;
+	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualization and analysis.
 	  </li>
 
 	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
@@ -186,7 +184,7 @@
 	  <li>
 	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/"
 	  >ptproc</a> (off-CRAN) provides methods and classes for spatio-temporal 
-	  ("multi-dimensional") point process;
+	  ("multi-dimensional") point process.
 	  </li>
 	  </ul>
 	</li>
@@ -194,15 +192,18 @@
     <li><b>Lattice data</b>
 	 <ul>
 	 <li><pkg>surveillance</pkg> provides temporal and spatio-temporal
-	 modeling and monitoring of epidemic phenomena;
+	 modeling and monitoring of epidemic phenomena.
 	 </li>
 
 	 <li>
-	 <pkg>plm</pkg> fits linear panel models
+	 <pkg>plm</pkg> fits linear panel models.
 	 </li>
 	 
 	 <li><pkg>splm</pkg> provides estimation and diagnostic
-	 testing of econometric models for spatial panel data; </li>
+	 testing of econometric models for spatial panel data. </li>
+
+	 <li><pkg>sphet</pkg> fit spatial models with heteroskedastic
+	 innovations.</li>
 
 	 </ul>
 	</li>
@@ -211,17 +212,24 @@
 	 <ul>
 	 <li><pkg>adehabitatLT</pkg> provids a	collection of tools
 	 for the analysis of animal movements, including biased random walk 
-	 simulation and home range estimation;
+	 simulation and home range estimation.
 	 </li>
 
 	 <li>package <pkg>trip</pkg> provides functions for accessing
 	 and manipulating spatial data for animal tracking. Filter
 	 for speed and create time spent plots from animal track
-	 data; and <pkg>tripEstimation</pkg> provides a Metropolis
+	 data.
+	 </li>
+	 
+	 <li><pkg>tripEstimation</pkg> provides a Metropolis
 	 sampler and supporting functions for estimating animal
-	 movement from archival tags and satellite fixes;
+	 movement from archival tags and satellite fixes.
 
-	 Data handling and estimation functions for animal movement estimation from archival or satellite tags. Helper functions are included for making image summaries binned by time interval from MCMC simulations of point data.
+	 It further provides Data handling and estimation functions
+	 for animal movement estimation from archival or satellite
+	 tags. Helper functions are included for making image
+	 summaries binned by time interval from MCMC simulations
+	 of point data.
 	 </li>
 
 	 <li><pkg>diveMove</pkg> provides tilities to represent,
@@ -238,17 +246,18 @@
 	<ul>
 	<li>package <pkg>plotKML</pkg> provides methods to convert
 	spatio-temporal data into KML files, which can be displayed
-	by external viewers, in particular Google Earth;
+	by external viewers, in particular Google Earth.
 	</li>
 
 	<li>
 	package <pkg>googleVis</pkg> provides an interface to show R data (tables) in the
-	<a href="https://developers.google.com/chart/">Google Chart Tools</a>;
+	<a href="https://developers.google.com/chart/">Google Chart Tools</a>.
 	</li>
 
 	<li>
-	package <pkg>stpp</pkg> and <pkg>splancs</pkg> provide animation and 3D interactive plots (using <pkg>rgl</pkg>) for displaying spatio-temporal point patterns;
-	</li>
+	package <pkg>stpp</pkg> and <pkg>splancs</pkg> provide
+	animation and 3D interactive plots (using <pkg>rgl</pkg>)
+	for displaying spatio-temporal point patterns.	</li>
 
 	<li>
 	<pkg>mvtsplot</pkg> provides multivariate time series plots,
@@ -256,27 +265,29 @@
 	<a href="http://www.jstatsoft.org/v25/c01/">Peng (2008, Journal of Statistical Software)</a>.
 	</li>
 
-	<li>
-    <a href="http://www.gapminder.org/world/">Gapminder world</a> allows interactive
-	dynamic visualization of country-wise data;
-	</li>
 	</ul>
 
   <p><strong>Data sets</strong></p>
   <ul>
-  <li>table data for fitting linear panel models are found in <pkg>plm</pkg>;
+
+  <li>Table data for fitting linear panel models are found in <pkg>plm</pkg>.
   </li>
-  <li>package <pkg>cshapes</pkg> contains a data base with country boundaries,
-  varying over time;
+
+  <li>Package <pkg>cshapes</pkg> contains a data base with country boundaries,
+  varying over time.
+
   </li>
-  <li><pkg>gstat</pkg> contains the classic Irish wind data;
+  <li><pkg>gstat</pkg> contains the classic Irish wind data.
   </li>
+
   <li><pkg>spacetime</pkg> contains rural PM10 air quality 
   measurements over Germany.
   </li>
+
   <li>
   Some parts of the Cressie and Wikle (2011) book "Statistics for spatio-temporal
   data" can be reproduced by <code>demo(CressieWikle)</code> in <pkg>spacetime</pkg>.
+
   </li>
   </ul>
 
@@ -284,20 +295,20 @@
   Packages for retrieving data are:
 
   <ul>
-  <li>package <pkg>openair</pkg> has tools to analyze, interpret and understand air pollution data, but also tools to download UK air quality data
+  <li>Package <pkg>openair</pkg> has tools to analyze, interpret and understand air pollution data, but also tools to download UK air quality data.
   </li>
 
   <li>
   <pkg>sos4R</pkg> provides methods to request data from a <a
   href="http://www.opengeospatial.org/standards/sos">sensor
-  observation service</a>
+  observation service</a>.
   </li>
 
   <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
   mortality, weather, and air pollution data from the National
   Morbidity, Mortality, and Air Pollution Study for 108 U.S. cities
   (1987--2000); data are obtained from the Internet-based Health
-  and Air Pollution Surveillance System (iHAPSS)
+  and Air Pollution Surveillance System (iHAPSS).
   </li>
   </ul>
 
@@ -341,6 +352,15 @@
     <a href="http://www.jstatsoft.org/v51/i07/">Pebesma (2012). spacetime: Spatio-Temporal Data in R. Journal of Statistical Software, 51(7).</a>
     <a href="http://www.jstatsoft.org/v25/c01/">Peng (2008). A Method for Visualizing Multivariate Time Series Data. Journal of Statistical Software, Code Snippets, 25(1).</a>
     <rforge>spcopula</rforge>
+
+  <p>
+  <a href="http://www.gapminder.org/world/">Gapminder world</a> is a tool
+  that lets you visualize a lot of economic and health indicators
+  per country; the site gives access to the underlying <a
+  href="http://www.gapminder.org/data/">tables</a> in time-wide
+  form. 
+  </p>
+
   </links>
   <!-- what about <pkg>LICORS</pkg>, <pkg>LSC</pkg>? -->
 
