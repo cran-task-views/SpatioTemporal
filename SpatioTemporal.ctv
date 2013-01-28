@@ -152,10 +152,11 @@
 	   different multivariate return periods is implemented.
 	   </li>
 
-	   <li><pkg>solaR</pkg> is a package for computing Solar Radiation and Photovoltaic Systems performance.
+	   <li><pkg>solaR</pkg> is a package for computing solar radiation and photovoltaic
+	   systems performance.
 	   </li>
 
-	   <li><pkg>nlme</pkg> and <pkg>lme4</pkg> contains functions
+	   <li><pkg>nlme</pkg> and <pkg>lme4</pkg> contain functions
 	   to fit linear mixed models, and have facilities to model
 	   spatial and/or temporal effects.
 	   </li>
@@ -331,17 +332,25 @@
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
     <pkg                >lgcp</pkg>
+    <pkg                >lme4</pkg>
     <pkg                >mvtsplot</pkg>
+    <pkg                >nlme</pkg>
     <pkg                >NMMAPSlite</pkg>
     <pkg                >openair</pkg>
+    <pkg                >pastecs</pkg>
     <pkg                >plm</pkg>
     <pkg                >plotKML</pkg>
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
+    <pkg                >rgl</pkg>
+    <pkg                >solaR</pkg>
     <pkg                >sos4R</pkg>
+    <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
     <pkg                >spate</pkg>
     <pkg                >SpatioTemporal</pkg>
+    <pkg                >sphet</pkg>
+    <pkg                >splancs</pkg>
     <pkg                >splm</pkg>
     <pkg                >spTimer</pkg>
     <pkg                >stam</pkg>
@@ -351,6 +360,7 @@
     <pkg priority="core">surveillance</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
+    <pkg priority="core">xts</pkg>
   </packagelist>
 
   <links>
@@ -359,18 +369,10 @@
     <view>Econometry</view>
     <view>Environmetrics</view>
     <view>DifferentialEquations</view>
+    <rforge>spcopula</rforge>
     <a href="http://www.jstatsoft.org/v51/i07/">Pebesma (2012). spacetime: Spatio-Temporal Data in R. Journal of Statistical Software, 51(7).</a>
     <a href="http://www.jstatsoft.org/v25/c01/">Peng (2008). A Method for Visualizing Multivariate Time Series Data. Journal of Statistical Software, Code Snippets, 25(1).</a>
-    <rforge>spcopula</rforge>
-
-  <p>
-  <a href="http://www.gapminder.org/world/">Gapminder world</a> is a tool
-  that lets you visualize a lot of economic and health indicators
-  per country; the site gives access to the underlying <a
-  href="http://www.gapminder.org/data/">tables</a> in time-wide
-  form. 
-  </p>
-
+    <a href="http://www.gapminder.org/world/">Gapminder world: A tool for visualization of economic and health indicators per country (including access to the underlying tables in time-wide form.</a>
   </links>
   <!-- what about <pkg>LICORS</pkg>, <pkg>LSC</pkg>? -->
 
