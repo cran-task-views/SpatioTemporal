@@ -13,7 +13,7 @@
   something is inaccurate or missing.</p>
 
   <p>
-  Although one could argue that all data spatio-temporal, as they
+  Although one could argue that all data are spatio-temporal, as they
   must have been taken somewhere and at some point in time, in
   many cases the spatial locations or times of observation are not
   registered, and irrelevant to the purpose of the study. Here,
@@ -36,7 +36,7 @@
   refer to spatial areas (countries, states) by an index. This index
   (a name, or number) can be matched to the spatial coordinates
   (polygons) of the corresponding area, an example of this is given
-  <a href="http://www.jstatsoft.org/v51/i07/">here</a>. As these
+  by <a href="http://www.jstatsoft.org/v51/i07/">Pebesma (2012, Journal of Statistical Software)</a>. As these
   data sets usually contain more than one attribute, to hold the
   data in a two-dimensional table a <em>long table</em> form is
   chosen, where each record contains the index of the observational
@@ -149,9 +149,8 @@
 	   <li><pkg>pastecs</pkg> is a package for the regulation, decomposition
 	   and analysis of space-time series. </li>
 
-	   <li>r-forge package <a
-	   href="https://r-forge.r-project.org/projects/spcopula/">spcopula</a>
-	   provides a framework to analyse via copulas spatial
+	   <li>R-Forge package <rforge>spcopula</rforge>
+	   provides a framework to analyze via copulas spatial
 	   and spatio-temporal data provided in the format of the
 	   spacetime package. Additionally, support for calculating
 	   different multivariate return periods is implemented.
@@ -172,7 +171,7 @@
 	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process;
 	  </li>
 
-	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualisation and analysis;
+	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualization and analysis;
 	  </li>
 
 	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
@@ -185,9 +184,9 @@
 	  mostly kernel density estimation.</li>
 
 	  <li>
-	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/index.html"
+	  <a href="http://www.biostat.jhsph.edu/~rpeng/software/"
 	  >ptproc</a> (off-CRAN) provides methods and classes for spatio-temporal 
-	  (``multi-dimensional'') point process;
+	  ("multi-dimensional") point process;
 	  </li>
 	  </ul>
 	</li>
@@ -226,7 +225,7 @@
 	 </li>
 
 	 <li><pkg>diveMove</pkg> provides tilities to represent,
-	 visualize, filter, analyse, and summarize time-depth
+	 visualize, filter, analyze, and summarize time-depth
 	 recorder (TDR) data; miscellaneous functions for handling
 	 location data are also provided.  
 	 </li>
@@ -235,16 +234,16 @@
 	</li>
   </ul>
 
-  <p><strong>Visualisation</strong></p>
+  <p><strong>Visualization</strong></p>
 	<ul>
 	<li>package <pkg>plotKML</pkg> provides methods to convert
 	spatio-temporal data into KML files, which can be displayed
-	by external viewers, in particular google earth;
+	by external viewers, in particular Google Earth;
 	</li>
 
 	<li>
 	package <pkg>googleVis</pkg> provides an interface to show R data (tables) in the
-	<a href="https://developers.google.com/chart/">google chart</a> tools;
+	<a href="https://developers.google.com/chart/">Google Chart Tools</a>;
 	</li>
 
 	<li>
@@ -253,13 +252,13 @@
 
 	<li>
 	<pkg>mvtsplot</pkg> provides multivariate time series plots,
-	with examples on spatio-temporal data, published in <a
-	href="http://www.jstatsoft.org/v25/c01/paper">jstatsoft</a>.
+	with examples on spatio-temporal data, published by
+	<a href="http://www.jstatsoft.org/v25/c01/">Peng (2008, Journal of Statistical Software)</a>.
 	</li>
 
 	<li>
     <a href="http://www.gapminder.org/world/">Gapminder world</a> allows interactive
-	dynamic visualisation of country-wise data;
+	dynamic visualization of country-wise data;
 	</li>
 	</ul>
 
@@ -276,8 +275,8 @@
   measurements over Germany.
   </li>
   <li>
-  Some parts of the Cressie and Wikle (2011) book ``Statistics for spatio-temporal
-  data'' can be reproduced by <code>demo(CressieWikle)</code> in <pkg>spacetime</pkg>
+  Some parts of the Cressie and Wikle (2011) book "Statistics for spatio-temporal
+  data" can be reproduced by <code>demo(CressieWikle)</code> in <pkg>spacetime</pkg>.
   </li>
   </ul>
 
@@ -285,7 +284,7 @@
   Packages for retrieving data are:
 
   <ul>
-  <li>package <pkg>openair</pkg> has tools to analyse, interpret and understand air pollution data, but also tools to download UK air quality data
+  <li>package <pkg>openair</pkg> has tools to analyze, interpret and understand air pollution data, but also tools to download UK air quality data
   </li>
 
   <li>
@@ -339,6 +338,9 @@
     <view>Econometry</view>
     <view>Environmetrics</view>
     <view>DifferentialEquations</view>
+    <a href="http://www.jstatsoft.org/v51/i07/">Pebesma (2012). spacetime: Spatio-Temporal Data in R. Journal of Statistical Software, 51(7).</a>
+    <a href="http://www.jstatsoft.org/v25/c01/">Peng (2008). A Method for Visualizing Multivariate Time Series Data. Journal of Statistical Software, Code Snippets, 25(1).</a>
+    <rforge>spcopula</rforge>
   </links>
   <!-- what about <pkg>LICORS</pkg>, <pkg>LSC</pkg>? -->
 
