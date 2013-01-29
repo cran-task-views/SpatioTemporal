@@ -321,8 +321,8 @@
 
   <li>Package <pkg>cshapes</pkg> contains a data base with country boundaries,
   varying over time.
-
   </li>
+  
   <li><pkg>gstat</pkg> contains the classic Irish wind data.
   </li>
 
@@ -333,8 +333,8 @@
   <li>
   Some parts of the Cressie and Wikle (2011) book "Statistics for spatio-temporal
   data" can be reproduced by <code>demo(CressieWikle)</code> in <pkg>spacetime</pkg>.
-
   </li>
+  
   </ul>
 
   <p><strong>Retrieving data</strong></p>
@@ -352,6 +352,7 @@
 
   <li><pkg>ncdf</pkg> and <pkg>RNetCDF</pkg> allow reading and writing
   <a href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a> files.
+  </li>
 
   <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
   mortality, weather, and air pollution data from the National
