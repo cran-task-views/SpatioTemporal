@@ -55,6 +55,15 @@
   <pkg>googleVis</pkg> lets you analyze such data in a way similar to
   gapminder (see links).</li>
 
+  <li><b>In space-wide tables:</b>
+  An acample of a space-wide table is the Irish wind data set,
+  obtained by <code>data(wind)</code> in package <pkg>gstat</pkg>.
+  It has time series as different columns, each column representing
+  one location (weather station).  The <code>stConstruct</code>
+  function in package <pkg>spacetime</pkg> accepts data in long,
+  time-wide or space-wide tables.  
+  </li>
+
   <li><b>Generic classes:</b>
   Formal classes for spatio-temporal data in R are provided by
   the <pkg>spacetime</pkg> package, which offers S4 classes for
@@ -320,13 +329,26 @@
 
   <p><strong>Visualization</strong></p>
 	<ul>
+
+	<li>
+	<rforge>rasterVis</rforge> includes a variety of methods
+	that take advantage of the <code>z</code> slot of a
+	<code>RasterStack</code> or
+	<code>RasterBrick</code> object. Its <a
+	href="http://rastervis.r-forge.r-project.org/">webpage</a>
+	includes several examples, from the hovmoller plot and
+	horizon graph, to the density and histogram plots.
+	</li>
+
 	<li>package <pkg>plotKML</pkg> provides methods to convert
 	spatio-temporal data into KML files, which can be displayed
-	by external viewers, in particular Google Earth.
+	by external viewers, in particular Google Earth. It has a
+	<a href="http://plotkml.r-forge.r-project.org/">gallery</a> too.
 	</li>
 
 	<li>
-	package <pkg>googleVis</pkg> provides an interface to show R data (tables) in the
+	package <pkg>googleVis</pkg> provides an interface to show R data 
+	(tables) in the
 	<a href="https://developers.google.com/chart/">Google Chart Tools</a>.
 	</li>
 
@@ -420,6 +442,7 @@
     <pkg                >plotKML</pkg>
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
+    <pkg                >rasterVis</pkg>
     <pkg                >RghcnV3</pkg>
     <pkg                >rgl</pkg>
     <pkg                >RNetCDF</pkg>
