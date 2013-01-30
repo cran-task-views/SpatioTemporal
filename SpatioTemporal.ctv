@@ -95,12 +95,18 @@
 
 	<li><b>Point patterns:</b>
 	  package <pkg>stpp</pkg> provides a class <code>stpp</code>
-	  for a space-time point pattern;
+	  for a space-time point pattern.
 
 	  package <pkg>stppResid</pkg> provides a class <code>stwin</code>
 	  for a space-time cuboid, defining a (rectangular)
 	  space-time window, and class <code>stpp</code> for a
 	  spatio-temporal point pattern (including window).
+
+	  Package <pkg>spatstat</pkg> provides a class <code>ppx</code> that
+	  deals spatial and temporal coordinate.
+
+	  None of the point pattern classes mentioned support spatial or
+	  explicit temporal reference systems.
 	</li>
 
 	<li><b>Trajectory data:</b>
