@@ -331,7 +331,7 @@
 	<ul>
 
 	<li>
-	<rforge>rasterVis</rforge> includes a variety of methods
+	<pkg>rasterVis</pkg> includes a variety of methods
 	that take advantage of the <code>z</code> slot of a
 	<code>RasterStack</code> or
 	<code>RasterBrick</code> object. Its <a
