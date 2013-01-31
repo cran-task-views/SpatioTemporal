@@ -402,9 +402,10 @@
   observation service</a>.
   </li>
 
-  <li><pkg>ncdf</pkg> and <pkg>RNetCDF</pkg> allow reading and writing
-  <a href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a> files.
-  </li>
+  <li><pkg>ncdf</pkg>, <pkg>ncdf4</pkg> and
+  <pkg>RNetCDF</pkg> allow reading and writing <a
+  href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a>
+  files.  </li>
 
   <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
   mortality, weather, and air pollution data from the National
@@ -434,6 +435,7 @@
     <pkg                >lme4</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf</pkg>
+    <pkg                >ncdf4</pkg>
     <pkg                >nlme</pkg>
     <pkg                >NMMAPSlite</pkg>
     <pkg                >openair</pkg>
