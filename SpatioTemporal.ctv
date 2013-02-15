@@ -419,6 +419,12 @@
   network (V3) data
   </li>
 
+  <li>
+  <pkg>M3</pkg> contains functions to read in and manipulate air
+  quality model output from Models3-formatted files. This format
+  is used by the Community Multiscale Air Quaility (CMAQ) model.
+  </li>
+
   </ul>
 
   </info>
@@ -433,6 +439,7 @@
     <pkg priority="core">gstat</pkg>
     <pkg                >lgcp</pkg>
     <pkg                >lme4</pkg>
+    <pkg                >M3</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf</pkg>
     <pkg                >ncdf4</pkg>
@@ -453,6 +460,7 @@
     <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
     <pkg                >spate</pkg>
+    <pkg                >spatstat</pkg>
     <pkg                >SpatioTemporal</pkg>
     <pkg                >sphet</pkg>
     <pkg                >splancs</pkg>
