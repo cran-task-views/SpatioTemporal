@@ -405,7 +405,10 @@
   <li><pkg>ncdf</pkg>, <pkg>ncdf4</pkg> and
   <pkg>RNetCDF</pkg> allow reading and writing <a
   href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a>
-  files.  </li>
+  files; 
+  <pkg>pbdNCDF4</pkg> adds collective parallel read and write capability 
+  to <pkg>ncdf4</pkg>.
+  </li>
 
   <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
   mortality, weather, and air pollution data from the National
