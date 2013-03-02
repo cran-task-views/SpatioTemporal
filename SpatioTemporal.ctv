@@ -450,6 +450,7 @@
     <pkg                >NMMAPSlite</pkg>
     <pkg                >openair</pkg>
     <pkg                >pastecs</pkg>
+    <pkg                >pbdNCDF4</pkg>
     <pkg                >plm</pkg>
     <pkg                >plotKML</pkg>
     <pkg priority="core">RandomFields</pkg>
