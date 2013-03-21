@@ -159,6 +159,12 @@
 	   in detail in its vignettes.
 	   </li>
 
+	   <li>
+	   <pkg>spBayes</pkg> provides functions for fitting Bayesian dynamic
+	   space-time regression models for  settings where space
+	   is viewed as continuous but time is taken to be discrete.
+	   </li>
+
 	   <li><pkg>Stem</pkg> provides estimation of the parameters
 	   of a spatio-temporal model using the EM algorithm,
 	   estimation of the parameter standard errors using a
@@ -466,6 +472,7 @@
     <pkg                >spate</pkg>
     <pkg                >spatstat</pkg>
     <pkg                >SpatioTemporal</pkg>
+    <pkg                >spBayes</pkg>
     <pkg                >sphet</pkg>
     <pkg                >splancs</pkg>
     <pkg                >splm</pkg>
