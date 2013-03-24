@@ -121,7 +121,7 @@
 	<li><b>Trajectory data:</b>
     Package <pkg>adehabitatLT</pkg> offers a class <code>ltraj</code>
     for trajectories, and methods for analyzing them; package
-	<pkg>trip</pkg> extends <pkg>sp</pkg>-based classes for trajectories.
+	<pkg>trip</pkg> extends <pkg>sp</pkg> based classes for trajectories.
 	</li>
 
   </ul>
