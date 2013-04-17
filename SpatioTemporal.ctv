@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2013-03-02</version>
+  <version>2013-04-17</version>
 
   <info>
   <p>This task view aims at presenting the useful R packages for the analysis
@@ -402,12 +402,6 @@
   <li>Package <pkg>openair</pkg> has tools to analyze, interpret and understand air pollution data, but also tools to download UK air quality data.
   </li>
 
-  <li>
-  <pkg>sos4R</pkg> provides methods to request data from a <a
-  href="http://www.opengeospatial.org/standards/sos">sensor
-  observation service</a>.
-  </li>
-
   <li><pkg>ncdf</pkg>, <pkg>ncdf4</pkg> and
   <pkg>RNetCDF</pkg> allow reading and writing <a
   href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a>
@@ -466,7 +460,6 @@
     <pkg                >rgl</pkg>
     <pkg                >RNetCDF</pkg>
     <pkg                >solaR</pkg>
-    <pkg                >sos4R</pkg>
     <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
     <pkg                >spate</pkg>
