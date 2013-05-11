@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2013-04-30</version>
+  <version>2013-05-11</version>
 
   <info>
   <p>This task view aims at presenting the useful R packages for the analysis
@@ -410,13 +410,6 @@
   to <pkg>ncdf4</pkg>.
   </li>
 
-  <li><pkg>NMMAPSlite</pkg> Provides remote access to daily
-  mortality, weather, and air pollution data from the National
-  Morbidity, Mortality, and Air Pollution Study for 108 U.S. cities
-  (1987--2000); data are obtained from the Internet-based Health
-  and Air Pollution Surveillance System (iHAPSS).
-  </li>
-
   <li>
   <pkg>RghcnV3</pkg> provides (access to) global historical climate
   network (V3) data
@@ -447,7 +440,6 @@
     <pkg                >ncdf</pkg>
     <pkg                >ncdf4</pkg>
     <pkg                >nlme</pkg>
-    <pkg                >NMMAPSlite</pkg>
     <pkg                >openair</pkg>
     <pkg                >pastecs</pkg>
     <pkg                >pbdNCDF4</pkg>
