@@ -6,8 +6,8 @@
   <version>2013-05-11</version>
 
   <info>
-  <p>This task view aims at presenting the useful R packages for the analysis
-  of spatio-temporal data.</p>
+  <p>This task view aims at presenting R packages that are useful for 
+  the analysis of spatio-temporal data.</p>
   <p>Please let the
   <a href="mailto:edzer.pebesma@uni-muenster.de">maintainer</a> know if
   something is inaccurate or missing.</p>
