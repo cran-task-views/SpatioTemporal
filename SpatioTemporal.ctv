@@ -252,12 +252,12 @@
 
     <li><b>Moving objects, trajectories</b>
 	 <ul>
-	 <li><pkg>adehabitatLT</pkg> provids a	collection of tools
+	 <li><pkg>adehabitatLT</pkg> provides a	collection of tools
 	 for the analysis of animal movements, including biased random walk 
 	 simulation and home range estimation.
 	 </li>
 
-	 <li>package <pkg>trip</pkg> provides functions for accessing
+	 <li><pkg>trip</pkg> provides functions for accessing
 	 and manipulating spatial data for animal tracking. Filter
 	 for speed and create time spent plots from animal track
 	 data.
@@ -280,7 +280,7 @@
 	 location data are also provided.  
 	 </li>
 
-	 <li><pkg>argosfilter</pkg> provides functions to filters
+	 <li><pkg>argosfilter</pkg> provides functions to filter
 	 animal satellite tracking data obtained from Argos. It is
 	 especially indicated for telemetry studies of marine
 	 animals, where Argos locations are predominantly of
@@ -296,8 +296,7 @@
 	 </li>
 	 
 	 <li>
-	 crawl (<a
-	 href="http://cran.r-project.org/src/contrib/Archive/crawl/">ARCHIVED</a>):
+	 <pkg>crawl</pkg>:
 	 The (C)orrelated (RA)ndom (W)alk (L)ibrary of R functions
 	 was designed for fitting continuous-time correlated random
 	 walk (CTCRW) models with time indexed covariates. The
