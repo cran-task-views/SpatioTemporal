@@ -120,8 +120,8 @@
 
 	<li><b>Trajectory data:</b>
     Package <pkg>adehabitatLT</pkg> offers a class <code>ltraj</code>
-    for trajectories, and methods for analyzing them; package
-	<pkg>trip</pkg> extends <pkg>sp</pkg> based classes for trajectories.
+    for trajectories, and methods for analyzing them; the packages <pkg>move</pkg> and 
+	<pkg>trip</pkg> both extend <pkg>sp</pkg> based classes for trajectories. 
 	</li>
 
   </ul>
@@ -313,7 +313,7 @@
 	 </li>
 
 	 <li>
-	 <rforge>move</rforge> is a package for analyzing animal
+	 <pkg>move</pkg> is a package for analyzing animal
 	 movement data; it contains functions to access movement data
 	 stored in <a href="http://www.movebank.org/">movebank</a>
 	 as well as tools to visualize and statistically analyse
@@ -483,5 +483,5 @@
     <a href="http://www.gapminder.org/world/">Gapminder world: A tool for visualization of economic and health indicators per country (including access to the underlying tables in time-wide form).</a>
   </links>
   <!-- what about <pkg>LICORS</pkg>, <pkg>LSC</pkg>? -->
-
+  <!-- could add a lot more about classes, e.g. sp, move, trip and how they fit together, where there is coercion etc. -->
 </CRANTaskView>
