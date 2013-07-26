@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2013-05-11</version>
+  <version>2013-07-26</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -427,6 +427,7 @@
   <packagelist>
     <pkg priority="core">adehabitatLT</pkg>
     <pkg                >argosfilter</pkg>
+    <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
     <pkg                >GeoLight</pkg>
@@ -435,6 +436,7 @@
     <pkg                >lgcp</pkg>
     <pkg                >lme4</pkg>
     <pkg                >M3</pkg>
+    <pkg                >move</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf</pkg>
     <pkg                >ncdf4</pkg>
