@@ -321,6 +321,18 @@
 	 position and attitude.	 
 	 </li>
 
+	 <li> 
+	 The <pkg>BBMM</pkg> (Brownian bridge movement model) package
+	 provides an empirical estimate of a movement path using
+	 discrete location data obtained at relatively short time
+	 intervals. This is a continuous-time stochastic model of
+	 movement in which the probability of being in an area during
+	 the time of observation is conditioned on starting and ending
+	 locations. A BBMM is typically fit to animal location data
+	 obtained by a Global Positioning System (GPS) or Very High
+	 Frequency (VHF) device.
+	 </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a>
@@ -438,6 +450,7 @@
     <pkg priority="core">adehabitatLT</pkg>
     <pkg		>animalTrack</pkg>
     <pkg                >argosfilter</pkg>
+    <pkg		>BBMM</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
