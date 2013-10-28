@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2013-07-26</version>
+  <version>2013-10-28</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -334,8 +334,8 @@
 	 </li>
 
 	 <li> 
-	 The <pkg>bcpa</pkg> package for Behavioral Change Point
-	 Analysis (BCPA) is a method of identifying hidden shifts in
+	 The <pkg>bcpa</pkg> package for behavioral change point
+	 analysis (BCPA) is a method of identifying hidden shifts in
 	 the underlying parameters of a time series, developed
 	 specifically to be applied to animal movement data which is
 	 irregularly sampled. The original paper on which it is based
@@ -462,6 +462,7 @@
     <pkg		>animalTrack</pkg>
     <pkg                >argosfilter</pkg>
     <pkg		>BBMM</pkg>
+    <pkg                >bcpa</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
