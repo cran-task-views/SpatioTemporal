@@ -333,6 +333,17 @@
 	 Frequency (VHF) device.
 	 </li>
 
+	 <li> 
+	 The <pkg>bcpa</pkg> package for Behavioral Change Point
+	 Analysis (BCPA) is a method of identifying hidden shifts in
+	 the underlying parameters of a time series, developed
+	 specifically to be applied to animal movement data which is
+	 irregularly sampled. The original paper on which it is based
+	 is: E. Gurarie, R. Andrews and K. Laidre A novel method for
+	 identifying behavioural changes in animal movement data
+	 (2009) Ecology Letters 12:5 395-408.
+	 </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a>
