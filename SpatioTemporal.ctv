@@ -344,6 +344,11 @@
 	 (2009) Ecology Letters 12:5 395-408.
 	 </li>
 
+	 <li> The <pkg>smam</pkg> provides Animal movement models
+	 including moving-resting process with embedded Brownian
+	 motion, Brownian motion with measurement error.
+	   </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a>
@@ -488,6 +493,7 @@
     <pkg                >RghcnV3</pkg>
     <pkg                >rgl</pkg>
     <pkg                >RNetCDF</pkg>
+    <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
     <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
