@@ -344,7 +344,7 @@
 	 (2009) Ecology Letters 12:5 395-408.
 	 </li>
 
-	 <li> The <pkg>smam</pkg> provides Animal movement models
+	 <li> The <pkg>smam</pkg> package provides Animal movement models
 	 including moving-resting process with embedded Brownian
 	 motion, Brownian motion with measurement error.
 	   </li>
