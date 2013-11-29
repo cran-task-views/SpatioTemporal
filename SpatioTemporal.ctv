@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2013-10-28</version>
+  <version>2013-11-29</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -448,11 +448,6 @@
   </li>
 
   <li>
-  <pkg>RghcnV3</pkg> provides (access to) global historical climate
-  network (V3) data
-  </li>
-
-  <li>
   <pkg>M3</pkg> contains functions to read in and manipulate air
   quality model output from Models3-formatted files. This format
   is used by the Community Multiscale Air Quaility (CMAQ) model.
@@ -490,7 +485,6 @@
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >rasterVis</pkg>
-    <pkg                >RghcnV3</pkg>
     <pkg                >rgl</pkg>
     <pkg                >RNetCDF</pkg>
     <pkg                >smam</pkg>
