@@ -453,6 +453,10 @@
   is used by the Community Multiscale Air Quaility (CMAQ) model.
   </li>
 
+  <li>
+  <pkg>rmatio</pkg> is a package for reading and writing Matlab MAT files from R. 
+  </li>
+
   </ul>
 
   </info>
@@ -486,6 +490,7 @@
     <pkg priority="core">raster</pkg>
     <pkg                >rasterVis</pkg>
     <pkg                >rgl</pkg>
+    <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
