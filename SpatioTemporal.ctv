@@ -349,6 +349,15 @@
 	 motion, Brownian motion with measurement error.
 	   </li>
 
+   <li> The <pkg>BayesianAnimalTracker</pkg> package provides a Bayesian 
+   melding approach to combine the GPS observations and Dead-Reckoned path 
+   for an accurate animal's track, or equivalently, use the GPS observations 
+   to correct the Dead-Reckoned path. It can take the measurement errors in 
+   the GPS observations into account and provide uncertainty statement about 
+   the corrected path. The main calculation can be done by the BMAnimalTrack 
+   function.
+	 </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a>
@@ -463,9 +472,10 @@
 
   <packagelist>
     <pkg priority="core">adehabitatLT</pkg>
-    <pkg		>animalTrack</pkg>
+    <pkg		            >animalTrack</pkg>
     <pkg                >argosfilter</pkg>
-    <pkg		>BBMM</pkg>
+    <pkg  	            >BayesianAnimalTracker</pkg>
+    <pkg		            >BBMM</pkg>
     <pkg                >bcpa</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
