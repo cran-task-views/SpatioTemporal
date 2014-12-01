@@ -358,6 +358,30 @@
    function.
 	 </li>
 
+   <li> The <pkg>TrackReconstruction</pkg> package reconstructs animal tracks 
+   from magnetometer, accelerometer, depth and optional speed data. Designed 
+   primarily using data from Wildlife Computers Daily Diary tags deployed on 
+   northern fur seals.
+   </li>
+
+   <li> The <pkg>wildlifeDI</pkg> package provides tools for calculating a 
+   suite of indices used for quantifying dynamic interaction with wildlife 
+   telemetry data. Dynamic interaction refers to spatial-temporal associations 
+   in the movements of two (or more) animals. 
+   </li>
+
+   <li> The <pkg>mkde</pkg> package provides functions to compute and 
+   visualize movement-based kernel density estimates (MKDEs) for animal 
+   utilization distributions in 2 or 3 spatial dimensions.
+   </li>
+
+   <li> The <pkg>fishmove</pkg> package provides functions to predict fish 
+   movement parameters based on multiple regression and plotting leptokurtic 
+   fish dispersal kernels (see Radinger and Wolter, 2013: Patterns and 
+   predictors of fish dispersal in rivers. Fish and Fisheries.)
+   </li>
+
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a>
@@ -366,7 +390,7 @@
 	 and most probable positions from tracking data.
 	 </li>
 
-
+  
 	 <li><a href="http://ram.biology.dal.ca/~jonsen/code.html">bsam</a>
 	 fits Bayesian state-space models to Argos satellite tracking
 	 data. Currently, models provided are DCRW (for location filtering),
@@ -480,12 +504,14 @@
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
+    <pkg                >fishmove</pkg>
     <pkg                >GeoLight</pkg>
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
     <pkg                >lgcp</pkg>
     <pkg                >lme4</pkg>
     <pkg                >M3</pkg>
+    <pkg                >mkde</pkg>
     <pkg                >move</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf</pkg>
@@ -519,8 +545,10 @@
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
+    <pkg                >TrackReconstruction</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
+    <pkg                >wildlifeDI</pkg>
     <pkg priority="core">xts</pkg>
   </packagelist>
 
