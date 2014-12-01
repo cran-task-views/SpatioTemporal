@@ -391,8 +391,8 @@
 	 </li>
 
   
-	 <li><a href="http://ram.biology.dal.ca/~jonsen/code.html">bsam</a>
-	 fits Bayesian state-space models to Argos satellite tracking
+	 The <li><a href="http://web.science.mq.edu.au/~ijonsen/code.html">bsam</a>
+	 package fits Bayesian state-space models to Argos satellite tracking
 	 data. Currently, models provided are DCRW (for location filtering),
 	 DCRWS (for location filtering and behavioural state estimation), and
 	 hDCRWS (a hierarchical model for location filtering and behavioural
