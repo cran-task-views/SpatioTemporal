@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2014-01-12</version>
+  <version>2014-12-07</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -103,10 +103,7 @@
 	</li>
 
 	<li><b>Point patterns:</b>
-	  package <pkg>stpp</pkg> provides a class <code>stpp</code>
-	  for a space-time point pattern.
-
-	  package <pkg>stppResid</pkg> provides a class <code>stwin</code>
+	  Package <pkg>stppResid</pkg> provides a class <code>stwin</code>
 	  for a space-time cuboid, defining a (rectangular)
 	  space-time window, and class <code>stpp</code> for a
 	  spatio-temporal point pattern (including window).
@@ -205,9 +202,6 @@
 
 	  <li>
 	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process.
-	  </li>
-
-	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualization and analysis.
 	  </li>
 
 	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
@@ -429,11 +423,6 @@
 	</li>
 
 	<li>
-	package <pkg>stpp</pkg> and <pkg>splancs</pkg> provide
-	animation and 3D interactive plots (using <pkg>rgl</pkg>)
-	for displaying spatio-temporal point patterns.	</li>
-
-	<li>
 	<pkg>mvtsplot</pkg> provides multivariate time series plots,
 	with examples on spatio-temporal data, published by
 	<a href="http://www.jstatsoft.org/v25/c01/">Peng (2008, Journal of Statistical Software)</a>.
@@ -542,7 +531,6 @@
     <pkg                >spTimer</pkg>
     <pkg                >stam</pkg>
     <pkg                >Stem</pkg>
-    <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
     <pkg                >TrackReconstruction</pkg>
