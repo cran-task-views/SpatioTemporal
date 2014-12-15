@@ -378,20 +378,25 @@
 
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
-	 Electronic Tagging Geolocation Packages Repository</a>
+	 Electronic Tagging Geolocation Packages Repository</a> (off-CRAN) 
 	 site provides a collection of statistical models (and R packages)
 	 to estimate position errors, movement model parameters, 
 	 and most probable positions from tracking data.
 	 </li>
 
   
-	 <li>The <a href="http://web.science.mq.edu.au/~ijonsen/code.html">bsam</a>
+	 <li>The <a href="http://web.science.mq.edu.au/~ijonsen/code.html">bsam</a> (off-CRAN) 
 	 package fits Bayesian state-space models to Argos satellite tracking
 	 data. Currently, models provided are DCRW (for location filtering),
 	 DCRWS (for location filtering and behavioural state estimation), and
 	 hDCRWS (a hierarchical model for location filtering and behavioural
 	 state estimation across multiple animals).
 	 </li>
+
+
+   <li>The <a href="https://github.com/calbertsen/argosTrack">argosTrack</a> (off-CRAN) 
+   package allows fitting movement models to Argos data. 
+   </li>
 
 	 </ul>
 	</li>
