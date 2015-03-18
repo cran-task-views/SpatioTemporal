@@ -247,6 +247,7 @@
 	 to fit linear mixed models, and have facilities to model
 	 spatial and/or temporal effects.  </li>
 
+	 <li><pkg>rsatscan</pkg> provides an R interface to the free (but non-open source) program SaTScan</li>
 	 </ul>
 	</li>
 
