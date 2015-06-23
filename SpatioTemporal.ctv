@@ -176,6 +176,8 @@
 	   <li><pkg>pastecs</pkg> is a package for the regulation, decomposition
 	   and analysis of space-time series. </li>
 
+	   <li><pkg>STMedianPolish</pkg> analyses spatio-temporal data, decomposing data in n-dimensional arrays and using the median polish technique.</li>
+
 	   <li>R-Forge package <rforge>spcopula</rforge>
 	   provides a framework to analyze via copulas spatial
 	   and spatio-temporal data provided in the format of the
