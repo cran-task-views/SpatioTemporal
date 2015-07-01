@@ -536,6 +536,7 @@
     <pkg                >rgl</pkg>
     <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
+    <pkg                >rsatscan</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
     <pkg priority="core">sp</pkg>
@@ -550,6 +551,7 @@
     <pkg                >spTimer</pkg>
     <pkg                >stam</pkg>
     <pkg                >Stem</pkg>
+    <pkg                >STMedianPolish</pkg>
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
