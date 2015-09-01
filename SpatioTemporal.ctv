@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2014-12-18</version>
+  <version>2015-09-01</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -291,14 +291,6 @@
 	 </li>
 
 	 <li>
-	 <pkg>GeoLight</pkg> provides basic functions for global positioning
-	 based on light intensity measurements over time. Positioning process
-	 includes the determination of sun events, a discrimination of
-	 residency and movement periods, the calibration of period-specific
-	 data and, finally, the calculation of positions.
-	 </li>
-	 
-	 <li>
 	 <pkg>crawl</pkg>:
 	 The (C)orrelated (RA)ndom (W)alk (L)ibrary of R functions
 	 was designed for fitting continuous-time correlated random
@@ -513,7 +505,6 @@
     <pkg                >cshapes</pkg>
     <pkg                >diveMove</pkg>
     <pkg                >fishmove</pkg>
-    <pkg                >GeoLight</pkg>
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
     <pkg                >lgcp</pkg>
