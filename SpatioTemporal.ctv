@@ -376,6 +376,25 @@
    predictors of fish dispersal in rivers. Fish and Fisheries.)
    </li>
 
+	<li> The <pkg> ctmcmove </pkg> facilitates taking movement data in xyt
+	format and pairing it with raster covariates within a
+	continuous time Markov chain (CTMC) framework. As described in
+	Hanks et al. (2015), this allows flexible modeling of movement
+	in response to covariates (or covariate gradients) with model
+	fitting possible within a Poisson GLM framework.
+
+	</li>
+
+	<li> The <pkg> ctmm</pkg> provides functions for identifying,
+	fitting, and applying continuous-space, continuous-time
+	stochastic movement models to animal tracking data.  
+	</li>
+
+	<li> The <pkg>moveHMM </pkg> package provides animal movement
+	modelling using hidden Markov models. Pre-processing of
+	tracking data, fitting HMMs to movement data, visualization of
+	data and fitted model.
+        </li>
 
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
@@ -503,6 +522,8 @@
     <pkg                >bcpa</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
+    <pkg                >ctmcmove</pkg>
+    <pkg                >ctmm</pkg>
     <pkg                >diveMove</pkg>
     <pkg                >fishmove</pkg>
     <pkg                >googleVis</pkg>
@@ -512,6 +533,7 @@
     <pkg                >M3</pkg>
     <pkg                >mkde</pkg>
     <pkg                >move</pkg>
+    <pkg                >moveHMM</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf</pkg>
     <pkg                >ncdf4</pkg>
