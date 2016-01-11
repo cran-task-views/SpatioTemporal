@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2015-09-01</version>
+  <version>2016-01-11</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -491,7 +491,7 @@
   <li>Package <pkg>openair</pkg> has tools to analyze, interpret and understand air pollution data, but also tools to download UK air quality data.
   </li>
 
-  <li><pkg>ncdf</pkg>, <pkg>ncdf4</pkg> and
+  <li><pkg>ncdf4</pkg> and
   <pkg>RNetCDF</pkg> allow reading and writing <a
   href="http://www.unidata.ucar.edu/software/netcdf/">netcdf</a>
   files; 
@@ -535,7 +535,6 @@
     <pkg                >move</pkg>
     <pkg                >moveHMM</pkg>
     <pkg                >mvtsplot</pkg>
-    <pkg                >ncdf</pkg>
     <pkg                >ncdf4</pkg>
     <pkg                >nlme</pkg>
     <pkg                >openair</pkg>
