@@ -396,6 +396,28 @@
 	data and fitted model.
         </li>
 
+       <li> The aim of the package <pkg>trackeR</pkg> is to provide
+       infrastructure for handling running and cycling data from
+       GPS-enabled tracking devices. After extraction and appropriate
+       manipulation of the training or competition attributes, the
+       data are placed into session-based and unit-aware data objects
+       of class trackeRdata (S3 class). The information in the
+       resultant data objects can then be visualised, summarised, and
+       analysed through corresponding flexible and extensible methods.
+       </li>
+
+       <li> The <pkg>VTrack</pkg> is designed to facilitate the
+       assimilation, analysis and synthesis of animal location and
+       movement data collected by the VEMCO suite of acoustic
+       transmitters and receivers. As well as database and geographic
+       information capabilities the principal feature of VTrack is the
+       qualification and identification of ecologically relevant
+       events from the acoustic detection and sensor data. This
+       procedure condenses the acoustic detection database by orders
+       of magnitude, greatly enhancing the synthesis of acoustic
+       detection data.
+       </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a> (off-CRAN) 
@@ -567,9 +589,11 @@
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
+    <pkg > trackeR </pkg>
     <pkg                >TrackReconstruction</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
+    <pkg> VTrack</pkg>
     <pkg                >wildlifeDI</pkg>
     <pkg priority="core">xts</pkg>
   </packagelist>
