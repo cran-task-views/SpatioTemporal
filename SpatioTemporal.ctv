@@ -376,7 +376,7 @@
    predictors of fish dispersal in rivers. Fish and Fisheries.)
    </li>
 
-	<li> The <pkg> ctmcmove </pkg> facilitates taking movement data in xyt
+	<li> The <pkg>ctmcmove</pkg> facilitates taking movement data in xyt
 	format and pairing it with raster covariates within a
 	continuous time Markov chain (CTMC) framework. As described in
 	Hanks et al. (2015), this allows flexible modeling of movement
@@ -385,12 +385,12 @@
 
 	</li>
 
-	<li> The <pkg> ctmm</pkg> provides functions for identifying,
+	<li> The <pkg>ctmm</pkg> provides functions for identifying,
 	fitting, and applying continuous-space, continuous-time
 	stochastic movement models to animal tracking data.  
 	</li>
 
-	<li> The <pkg>moveHMM </pkg> package provides animal movement
+	<li> The <pkg>moveHMM</pkg> package provides animal movement
 	modelling using hidden Markov models. Pre-processing of
 	tracking data, fitting HMMs to movement data, visualization of
 	data and fitted model.
@@ -589,11 +589,11 @@
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
-    <pkg > trackeR </pkg>
+    <pkg>trackeR</pkg>
     <pkg                >TrackReconstruction</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
-    <pkg> VTrack</pkg>
+    <pkg>VTrack</pkg>
     <pkg                >wildlifeDI</pkg>
     <pkg priority="core">xts</pkg>
   </packagelist>
