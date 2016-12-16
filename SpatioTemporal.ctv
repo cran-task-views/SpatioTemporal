@@ -249,7 +249,9 @@
 	 to fit linear mixed models, and have facilities to model
 	 spatial and/or temporal effects.  </li>
 
-	 <li><pkg>rsatscan</pkg> provides an R interface to the free (but non-open source) program SaTScan</li>
+	 <li><pkg>rsatscan</pkg> provides an R interface to the free (but non-open source) program SaTScan.</li>
+
+	 <li><pkg>CARBayesST</pkg> implements a class of spatio-temporal generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (McMC) simulation. </li>
 	 </ul>
 	</li>
 
@@ -474,7 +476,9 @@
 	<li>
 	package <pkg>googleVis</pkg> provides an interface to show R data 
 	(tables) in the
-	<a href="https://developers.google.com/chart/">Google Chart Tools</a>.
+	<a href="https://developers.google.com/chart/">Google Chart Tools</a>. <pkg>spacetime</pkg> has a
+	<a href="https://cran.r-project.org/web/packages/spacetime/vignettes/stgvis.html">vignette</a>
+	demonstrating its use for spatio-temporal data.
 	</li>
 
 	<li>
