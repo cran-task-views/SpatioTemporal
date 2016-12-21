@@ -416,7 +416,7 @@
        analysed through corresponding flexible and extensible methods.
        </li>
 
-       <li> The <pkg>VTrack</pkg> is designed to facilitate the
+       <li> The <pkg>VTrack</pkg> package is designed to facilitate the
        assimilation, analysis and synthesis of animal location and
        movement data collected by the VEMCO suite of acoustic
        transmitters and receivers. As well as database and geographic
@@ -427,6 +427,8 @@
        of magnitude, greatly enhancing the synthesis of acoustic
        detection data.
        </li>
+
+	   <li>The <pkg>SimilarityMeasures</pkg> package computes four different similarity measures. The similarity measures included are: longest common subsequence (LCSS), Frechet distance, edit distance and dynamic time warping (DTW). Each of these similarity measures can be calculated from two n-dimensional trajectories, both in matrix form.</li>
 
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
