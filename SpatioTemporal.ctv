@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2016-12-19</version>
+  <version>2016-12-23</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -251,7 +251,9 @@
 
 	 <li><pkg>rsatscan</pkg> provides an R interface to the free (but non-open source) program SaTScan.</li>
 
-	 <li><pkg>CARBayesST</pkg> implements a class of spatio-temporal generalised linear mixed models for areal unit data, with inference in a Bayesian setting using Markov chain Monte Carlo (McMC) simulation. </li>
+	 <li><pkg>CARBayesST</pkg> implements a class of spatio-temporal
+	 generalised linear mixed models for areal unit data, with inference
+	 in a Bayesian setting using Markov chain Monte Carlo (McMC) simulation. </li>
 	 </ul>
 	</li>
 
@@ -428,7 +430,12 @@
        detection data.
        </li>
 
-	   <li>The <pkg>SimilarityMeasures</pkg> package computes four different similarity measures. The similarity measures included are: longest common subsequence (LCSS), Frechet distance, edit distance and dynamic time warping (DTW). Each of these similarity measures can be calculated from two n-dimensional trajectories, both in matrix form.</li>
+	 <li>The <pkg>SimilarityMeasures</pkg> package computes four
+	 different similarity measures. The similarity measures included
+	 are: longest common subsequence (LCSS), Frechet distance,
+	 edit distance and dynamic time warping (DTW). Each of these
+	 similarity measures can be calculated from two n-dimensional
+	 trajectories, both in matrix form.</li>
 
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
@@ -551,11 +558,12 @@
 
   <packagelist>
     <pkg priority="core">adehabitatLT</pkg>
-    <pkg		            >animalTrack</pkg>
-    <pkg                >argosfilter</pkg>
-    <pkg  	            >BayesianAnimalTracker</pkg>
-    <pkg		            >BBMM</pkg>
-    <pkg                >bcpa</pkg>
+    <pkg                >animalTrack</pkg>
+    <pkg		>argosfilter</pkg>
+    <pkg		>BayesianAnimalTracker</pkg>
+    <pkg		>BBMM</pkg>
+    <pkg		>bcpa</pkg>
+    <pkg		>CARBayesST</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >ctmcmove</pkg>
@@ -586,6 +594,7 @@
     <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
     <pkg                >rsatscan</pkg>
+    <pkg                >SimilarityMeasures</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
     <pkg priority="core">sp</pkg>
@@ -604,11 +613,11 @@
     <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
-    <pkg>trackeR</pkg>
+    <pkg                >trackeR</pkg>
     <pkg                >TrackReconstruction</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
-    <pkg>VTrack</pkg>
+    <pkg                >VTrack</pkg>
     <pkg                >wildlifeDI</pkg>
     <pkg priority="core">xts</pkg>
   </packagelist>
