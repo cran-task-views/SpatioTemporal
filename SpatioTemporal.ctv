@@ -437,6 +437,12 @@
 	 similarity measures can be calculated from two n-dimensional
 	 trajectories, both in matrix form.</li>
 
+	<li> the <pkg>sigloc</pkg> package provides a collection of
+	tools for estimating the location of a transmitter signal
+	from radio telemetry studies using the maximum likelihood
+	estimation (MLE) approach described in Lenth (1981).
+	</li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a> (off-CRAN) 
