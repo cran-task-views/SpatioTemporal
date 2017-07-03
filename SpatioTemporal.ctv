@@ -103,9 +103,6 @@
 	</li>
 
 	<li><b>Point patterns:</b>
-	  Package <pkg>stpp</pkg> provides a class <code>stpp</code>
-	  for a space-time point pattern.
-
 	  Package <pkg>stppResid</pkg> provides a class <code>stwin</code>
 	  for a space-time cuboid, defining a (rectangular)
 	  space-time window, and class <code>stpp</code> for a
@@ -207,9 +204,6 @@
 
 	  <li>
 	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process.
-	  </li>
-
-	  <li><pkg>stpp</pkg> allows Space-Time Point Pattern simulation, visualization and analysis.
 	  </li>
 
 	  <li><pkg>stppResid</pkg> performs residual analysis on space-time point process models.
@@ -497,7 +491,7 @@
 	</li>
 
 	<li>
-	package <pkg>stpp</pkg> and <pkg>splancs</pkg> provide
+	Package <pkg>splancs</pkg> provides
 	animation and 3D interactive plots (using <pkg>rgl</pkg>)
 	for displaying spatio-temporal point patterns.	</li>
 
@@ -616,7 +610,6 @@
     <pkg                >stam</pkg>
     <pkg                >Stem</pkg>
     <pkg                >STMedianPolish</pkg>
-    <pkg priority="core">stpp</pkg>
     <pkg                >stppResid</pkg>
     <pkg priority="core">surveillance</pkg>
     <pkg                >trackeR</pkg>
