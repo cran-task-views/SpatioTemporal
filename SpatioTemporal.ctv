@@ -437,6 +437,14 @@
 	estimation (MLE) approach described in Lenth (1981).
 	</li>
 
+   <li>
+   The <pkg>FLightR</pkg> provides Hidden Markov Models for Solar Geolocation 
+   Archival Tags; it allows estimating positions of animal from
+   data collected by solar geolocation archival tags; check the citations,
+   which include 
+   <a href="http://www.movementecologyjournal.com/content/3/1/25">Rakhimberdiev et al.</a>
+   </li>
+
 	 <li>
 	 The <a href="http://code.google.com/p/geolocation/">
 	 Electronic Tagging Geolocation Packages Repository</a> (off-CRAN) 
