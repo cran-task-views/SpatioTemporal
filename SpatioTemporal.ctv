@@ -56,7 +56,7 @@
   gapminder (see links).</li>
 
   <li><b>In space-wide tables:</b>
-  An acample of a space-wide table is the Irish wind data set,
+  An example of a space-wide table is the Irish wind data set,
   obtained by <code>data(wind)</code> in package <pkg>gstat</pkg>.
   It has time series as different columns, each column representing
   one location (weather station).  The <code>stConstruct</code>
