@@ -119,6 +119,13 @@
     Package <pkg>adehabitatLT</pkg> offers a class <code>ltraj</code>
     for trajectories, and methods for analyzing them; the packages <pkg>move</pkg> and 
 	<pkg>trip</pkg> both extend <pkg>sp</pkg> based classes for trajectories. 
+
+	A blog post on <a
+	href="http://r-spatial.org/r/2017/08/28/nest.html">tidy storm
+	trajectories</a> points out how nested dataframes, along with
+	geometry list columns of the <pkg>sf</pkg> package, can be used to model sets
+	of trajectories, and visualise properties at the set level and
+	at the level of individual fixes.
 	</li>
 
   </ul>
