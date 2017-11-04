@@ -438,7 +438,7 @@
 	 similarity measures can be calculated from two n-dimensional
 	 trajectories, both in matrix form.</li>
 
-	<li> the <pkg>sigloc</pkg> package provides a collection of
+	<li>The <pkg>sigloc</pkg> package provides a collection of
 	tools for estimating the location of a transmitter signal
 	from radio telemetry studies using the maximum likelihood
 	estimation (MLE) approach described in Lenth (1981).
@@ -585,6 +585,7 @@
     <pkg                >ctmm</pkg>
     <pkg                >diveMove</pkg>
     <pkg                >fishmove</pkg>
+    <pkg                >FLightR</pkg>
     <pkg                >GeoLight</pkg>
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
@@ -609,6 +610,8 @@
     <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
     <pkg                >rsatscan</pkg>
+    <pkg                >sf</pkg>
+    <pkg                >sigloc</pkg>
     <pkg                >SimilarityMeasures</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
