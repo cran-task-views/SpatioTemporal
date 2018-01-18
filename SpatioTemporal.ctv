@@ -470,7 +470,7 @@
 	 </li>
 
 
-   <li>The <a href="https://github.com/calbertsen/argosTrack">argosTrack</a> (off-CRAN) 
+   <li>The <github>calbertsen/argosTrack</github> (off-CRAN) 
    package allows fitting movement models to Argos data. 
    </li>
 
