@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2018-04-20</version>
+  <version>2018-06-18</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -440,12 +440,6 @@
 	 similarity measures can be calculated from two n-dimensional
 	 trajectories, both in matrix form.</li>
 
-	<li>The <pkg>sigloc</pkg> package provides a collection of
-	tools for estimating the location of a transmitter signal
-	from radio telemetry studies using the maximum likelihood
-	estimation (MLE) approach described in Lenth (1981).
-	</li>
-
    <li>
    The <pkg>FLightR</pkg> provides Hidden Markov Models for Solar Geolocation 
    Archival Tags; it allows estimating positions of animal from
@@ -614,7 +608,6 @@
     <pkg                >RNetCDF</pkg>
     <pkg                >rsatscan</pkg>
     <pkg                >sf</pkg>
-    <pkg                >sigloc</pkg>
     <pkg                >SimilarityMeasures</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
