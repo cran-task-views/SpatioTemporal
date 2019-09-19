@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2019-09-03</version>
+  <version>2019-09-19</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -745,20 +745,32 @@
 
   <packagelist>
     <pkg priority="core">adehabitatLT</pkg>
+    <pkg                >amt</pkg>
     <pkg                >animalTrack</pkg>
+    <pkg                >anipaths</pkg>
     <pkg		>argosfilter</pkg>
+    <pkg                >AtmRay</pkg>
     <pkg		>BayesianAnimalTracker</pkg>
     <pkg		>BBMM</pkg>
     <pkg		>bcpa</pkg>
+    <pkg                >bsam</pkg>
     <pkg		>CARBayesST</pkg>
+    <pkg                >caribou</pkg>
     <pkg                >crawl</pkg>
     <pkg                >cshapes</pkg>
     <pkg                >ctmcmove</pkg>
     <pkg                >ctmm</pkg>
     <pkg                >diveMove</pkg>
+    <pkg                >dodgr</pkg>
+    <pkg                >EMbC</pkg>
+    <pkg                >eyelinker</pkg>
+    <pkg                >eyetracking</pkg>
+    <pkg                >eyetrackingR</pkg>
     <pkg                >fishmove</pkg>
     <pkg                >FLightR</pkg>
+    <pkg                >foieGras</pkg>
     <pkg                >gapfill</pkg>
+    <pkg                >gazepath</pkg>
     <pkg                >GeoLight</pkg>
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
@@ -766,31 +778,52 @@
     <pkg                >lgcp</pkg>
     <pkg                >lme4</pkg>
     <pkg                >M3</pkg>
+    <pkg                >marcher</pkg>
+    <pkg                >mdftracks</pkg>
     <pkg                >mkde</pkg>
+    <pkg                >momentuHMM</pkg>
+    <pkg                >mousetrack</pkg>
+    <pkg                >mousetrap</pkg>
     <pkg                >move</pkg>
+    <pkg                >movecost</pkg>
     <pkg                >moveHMM</pkg>
+    <pkg                >moveVis</pkg>
+    <pkg                >moveWindSpeed</pkg>
     <pkg                >mvtsplot</pkg>
     <pkg                >ncdf4</pkg>
     <pkg                >nlme</pkg>
+    <pkg                >oce</pkg>
     <pkg                >openair</pkg>
+    <pkg                >opentraj</pkg>
     <pkg                >pastecs</pkg>
     <pkg                >pbdNCDF4</pkg>
     <pkg                >plm</pkg>
     <pkg                >plotKML</pkg>
+    <pkg                >psyosphere</pkg>
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >rasterVis</pkg>
+    <pkg                >recurse</pkg>
+    <pkg                >rerddapXtracto</pkg>
     <pkg                >rgl</pkg>
+    <pkg                >riverdist</pkg>
     <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
+    <pkg                >rpostgisLT</pkg>
     <pkg                >rsatscan</pkg>
+    <pkg                >rsMove</pkg>
+    <pkg                >saccades</pkg>
+    <pkg                >SDLfilter</pkg>
     <pkg                >sf</pkg>
     <pkg                >SimilarityMeasures</pkg>
+    <pkg                >SiMRiv</pkg>
     <pkg                >smam</pkg>
     <pkg                >solaR</pkg>
     <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
+    <pkg                >spatsoc</pkg>
     <pkg                >spatstat</pkg>
+    <pkg                >SpaTimeClus</pkg>
     <pkg                >SpatioTemporal</pkg>
     <pkg                >spBayes</pkg>
     <pkg                >sphet</pkg>
@@ -798,11 +831,18 @@
     <pkg                >splm</pkg>
     <pkg                >spTimer</pkg>
     <pkg                >stam</pkg>
+    <pkg                >stampr</pkg>
     <pkg                >Stem</pkg>
     <pkg                >STMedianPolish</pkg>
+    <pkg                >stplanr</pkg>
     <pkg priority="core">surveillance</pkg>
+    <pkg                >trackdem</pkg>
+    <pkg                >trackdf</pkg>
     <pkg                >trackeR</pkg>
+    <pkg                >trackeRapp</pkg>
     <pkg                >TrackReconstruction</pkg>
+    <pkg                >trajectories</pkg>
+    <pkg                >trajr</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
     <pkg                >VTrack</pkg>
