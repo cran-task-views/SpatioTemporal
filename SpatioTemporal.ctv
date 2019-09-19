@@ -258,9 +258,9 @@
     <li><b>Moving objects, trajectories</b>
 	 <ul>
 
-	 <p> There is a large (74+) and growing number of tracking, trajectory, movement and related packages on CRAN. A review paper by
+	 <li>There is a large (74+) and growing number of tracking, trajectory, movement and related packages on CRAN. A review paper by
 	 <a href="https://arxiv.org/abs/1901.05935"> Loo et al (2018)</a>provides a guide to summarize many available packages and
-	 their functionality. </p>
+	 their functionality.</li>
 	     <li>
 <pkg>adehabitatLT</pkg> A collection of tools for the analysis of animal movements.
 </li>
