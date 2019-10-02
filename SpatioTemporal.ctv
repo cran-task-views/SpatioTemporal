@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2019-09-25</version>
+  <version>2019-10-02</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -337,15 +337,6 @@
 <pkg>diveMove</pkg> Utilities to represent, visualize, filter, analyse, and summarize
              time-depth recorder (TDR) data.  Miscellaneous functions for
              handling location data are also provided.
-</li>
-    <li>
-<pkg>dodgr</pkg> Distances on dual-weighted directed graphs using priority-queue
-    shortest paths (Padgham (2019) ). Weighted directed
-    graphs have weights from A to B which may differ from those from B to A.
-    Dual-weighted directed graphs have two sets of such weights. A canonical
-    example is a street network to be used for routing in which routes are
-    calculated by weighting distances according to the type of way and mode of
-    transport, yet lengths of routes must be calculated from direct distances.
 </li>
     <li>
 <pkg>EMbC</pkg> Unsupervised, multivariate, binary clustering for meaningful annotation of data, taking into account the uncertainty in the data. A specific constructor for trajectory analysis in movement ecology yields behavioural annotation of trajectories based on estimated local measures of velocity and turning angle, eventually with solar position covariate as a daytime indicator, ("Expectation-Maximization Binary Clustering for Behavioural Annotation").
@@ -764,7 +755,6 @@
     <pkg                >ctmcmove</pkg>
     <pkg                >ctmm</pkg>
     <pkg                >diveMove</pkg>
-    <pkg                >dodgr</pkg>
     <pkg                >EMbC</pkg>
     <pkg                >eyelinker</pkg>
     <pkg                >eyetracking</pkg>
