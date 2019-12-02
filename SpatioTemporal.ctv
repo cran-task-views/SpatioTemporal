@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2019-10-02</version>
+  <version>2019-12-02</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -453,9 +453,6 @@
     software or geographic information systems (GIS).
 </li>
     <li>
-<pkg>recurse</pkg> Computes revisitation metrics for trajectory data, such as the number of revisitations for each location as well as the time spent for that visit and the time since the previous visit. Also includes functions to plot data.
-</li>
-    <li>
 <pkg>rerddapXtracto</pkg> Contains three functions that access
     environmental data from any 'ERDDAP' data web service. The rxtracto() function extracts
     data along a trajectory for a given "radius" around the point. The
@@ -796,7 +793,6 @@
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >rasterVis</pkg>
-    <pkg                >recurse</pkg>
     <pkg                >rerddapXtracto</pkg>
     <pkg                >rgl</pkg>
     <pkg                >riverdist</pkg>
