@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2019-12-02</version>
+  <version>2020-02-13</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -441,18 +441,6 @@
 <pkg>opentraj</pkg> opentraj uses the Hybrid Single Particle Lagrangian Integrated Trajectory Model (HYSPLIT) for computing simple air parcel trajectories. The functions in this package allow users to run HYSPLIT for trajectory calculations, as well as get its results, directly from R without using any GUI interface.
 </li>
     <li>
-<pkg>psyosphere</pkg> Analyse location data such as latitude,
-    longitude, and elevation. Based on spherical trigonometry, variables such as
-    speed, bearing, and distances can be calculated from moment to moment,
-    depending on the sampling frequency of the equipment used, and independent
-    of scale. Additionally, the package can plot tracks, coordinates, and shapes
-    on maps, and sub-tracks can be selected with point-in-polygon or other
-    techniques. The package is optimized to support behavioural science
-    experiments with multiple tracks. It can detect and clean up errors in the
-    data, and resulting data can be exported to be analysed in statistical
-    software or geographic information systems (GIS).
-</li>
-    <li>
 <pkg>rerddapXtracto</pkg> Contains three functions that access
     environmental data from any 'ERDDAP' data web service. The rxtracto() function extracts
     data along a trajectory for a given "radius" around the point. The
@@ -789,7 +777,6 @@
     <pkg                >pbdNCDF4</pkg>
     <pkg                >plm</pkg>
     <pkg                >plotKML</pkg>
-    <pkg                >psyosphere</pkg>
     <pkg priority="core">RandomFields</pkg>
     <pkg priority="core">raster</pkg>
     <pkg                >rasterVis</pkg>
