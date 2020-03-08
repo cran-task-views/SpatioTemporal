@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-02-13</version>
+  <version>2020-03-09</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -81,13 +81,6 @@
 
   <li><b>Dedicated classes:</b> dedicated classes are offered for:
   <ul>
-	<li><b>Geostatistical data:</b>
-    Package <pkg>SpatioTemporal</pkg> offers an S3 class
-    <code>STdata</code> which holds point observations and covariates
-    that can vary in space, time, and space-time, with the aim of
-	fitting and predicting a particular class of spatio-temporal models,
-	described in its vignettes.
-	</li>
 
     <li><b>Gridded/raster data:</b> package <pkg>raster</pkg> deals with
 	sets of rasters (called bricks, or stacks), and a 
@@ -157,11 +150,6 @@
 	   (GP) Models, Bayesian Auto-Regressive (AR) Models,
 	   and Bayesian Gaussian Predictive Processes (GPP)
 	   based AR Models.
-	   </li>
-
-	   <li>Package <pkg>SpatioTemporal</pkg> fits and predicts
-	   a particular class of spatio-temporal models, described
-	   in detail in its vignettes.
 	   </li>
 
 	   <li>
@@ -801,7 +789,6 @@
     <pkg                >spatsoc</pkg>
     <pkg                >spatstat</pkg>
     <pkg                >SpaTimeClus</pkg>
-    <pkg                >SpatioTemporal</pkg>
     <pkg                >spBayes</pkg>
     <pkg                >sphet</pkg>
     <pkg                >splancs</pkg>
