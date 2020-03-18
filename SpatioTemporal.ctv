@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-03-09</version>
+  <version>2020-03-18</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -254,9 +254,6 @@
 	 their functionality.</li>
 	     <li>
 <pkg>adehabitatLT</pkg> A collection of tools for the analysis of animal movements.
-</li>
-    <li>
-<pkg>amt</pkg> Manage and analyze animal movement data. The functionality of 'amt' includes methods to calculate track statistics (e.g. step lengths, speed, or turning angles), prepare data for fitting habitat selection analyses (resource and step-selection functions), and simulation of space-use from fitted step-selection functions.
 </li>
     <li>
 <pkg>animalTrack</pkg> 2D and 3D animal tracking data can be used to reconstruct tracks through time/space with correction based on known positions. 3D visualization of animal position and attitude.
@@ -712,7 +709,6 @@
 
   <packagelist>
     <pkg priority="core">adehabitatLT</pkg>
-    <pkg                >amt</pkg>
     <pkg                >animalTrack</pkg>
     <pkg                >anipaths</pkg>
     <pkg		>argosfilter</pkg>
