@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-03-18</version>
+  <version>2020-06-29</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -512,13 +512,6 @@
 <pkg>SpaTimeClus</pkg> Mixture model is used to achieve the clustering goal. Each component is itself a mixture model of polynomial autoregressive regressions whose the logistic weights consider the spatial and temporal information.
 </li>
     <li>
-<pkg>spatsoc</pkg> Detects spatial and temporal groups in GPS relocations.
-    It can be used to convert GPS relocations to
-    gambit-of-the-group format to build proximity-based social networks.
-    In addition, the randomizations function provides data-stream
-    randomization methods suitable for GPS data.
-</li>
-    <li>
 <pkg>stam</pkg> stam is an evolving package that target on the various
         methods to conduct Spatio-Temporal Analysis and
         Modelling,including Exploratory Spatio-Temporal Analysis and
@@ -782,7 +775,6 @@
     <pkg priority="core">sp</pkg>
     <pkg priority="core">spacetime</pkg>
     <pkg                >spate</pkg>
-    <pkg                >spatsoc</pkg>
     <pkg                >spatstat</pkg>
     <pkg                >SpaTimeClus</pkg>
     <pkg                >spBayes</pkg>
