@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-06-29</version>
+  <version>2020-07-15</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -453,9 +453,6 @@
     database.
 </li>
     <li>
-<pkg>rsMove</pkg> Tools for the guided selection of satellite data and environmental predictors, the combination of remote sensing and animal movement data and the mapping of resource suitabilitz. Based on the paper by Remelgado et al. (2015).
-</li>
-    <li>
 <pkg>saccades</pkg> Functions for detecting eye fixations in raw eye-tracking
     data.  The detection is done using a velocity-based algorithm for
     saccade detection proposed by Ralf Engbert and Reinhold Kliegl in
@@ -764,7 +761,6 @@
     <pkg                >RNetCDF</pkg>
     <pkg                >rpostgisLT</pkg>
     <pkg                >rsatscan</pkg>
-    <pkg                >rsMove</pkg>
     <pkg                >saccades</pkg>
     <pkg                >SDLfilter</pkg>
     <pkg                >sf</pkg>
