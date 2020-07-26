@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-07-15</version>
+  <version>2020-07-26</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -333,13 +333,6 @@
 </li>
     <li>
 <pkg>eyetracking</pkg> Misc function for working with eyetracking data
-</li>
-    <li>
-<pkg>eyetrackingR</pkg> A set of tools that address tasks along the pipeline from raw
-    data to analysis and visualization for eye-tracking data. Offers several
-    popular types of analyses, including linear and growth curve time analyses,
-    onset-contingent reaction time analyses, as well as several non-parametric
-    bootstrapping approaches.
 </li>
     <li>
 <pkg>fishmove</pkg> Functions to predict fish movement parameters plotting leptokurtic fish dispersal kernels (see Radinger and Wolter, 2014: Patterns and predictors of fish dispersal in rivers. Fish and Fisheries. 15:456-473.)
@@ -717,7 +710,6 @@
     <pkg                >EMbC</pkg>
     <pkg                >eyelinker</pkg>
     <pkg                >eyetracking</pkg>
-    <pkg                >eyetrackingR</pkg>
     <pkg                >fishmove</pkg>
     <pkg                >FLightR</pkg>
     <pkg                >foieGras</pkg>
