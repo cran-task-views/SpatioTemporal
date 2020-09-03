@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2020-07-26</version>
+  <version>2020-09-03</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -437,15 +437,6 @@
     networks, meaning there is no reliance on external software.
 </li>
     <li>
-<pkg>rpostgisLT</pkg> Integrates R and the 'PostgreSQL/PostGIS' database
-    system to build and manage animal trajectory (movement) data sets.
-    The package relies on 'ltraj' objects from the R package 'adehabitatLT',
-    building the analogous 'pgtraj' data structure in 'PostGIS'. Functions
-    allow users to seamlessly transfer between 'ltraj' and 'pgtraj', as
-    well as build new 'pgtraj' directly from location data stored in the
-    database.
-</li>
-    <li>
 <pkg>saccades</pkg> Functions for detecting eye fixations in raw eye-tracking
     data.  The detection is done using a velocity-based algorithm for
     saccade detection proposed by Ralf Engbert and Reinhold Kliegl in
@@ -751,7 +742,6 @@
     <pkg                >riverdist</pkg>
     <pkg                >rmatio</pkg>
     <pkg                >RNetCDF</pkg>
-    <pkg                >rpostgisLT</pkg>
     <pkg                >rsatscan</pkg>
     <pkg                >saccades</pkg>
     <pkg                >SDLfilter</pkg>
