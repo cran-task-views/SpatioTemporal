@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2021-01-28</version>
+  <version>2021-03-30</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -197,10 +197,6 @@
 	  <pkg>splancs</pkg> provides methods for spatial and
 	  space-time point pattern analysis (khat, kernel3d,
 	  visualizing). </li>
-
-	  <li>
-	  <pkg>lgcp</pkg> is a package for spatial and spatio-temporal modelling of point patterns using the log-Gaussian Cox process.
-	  </li>
 
 	  <li> <pkg>stam</pkg>	is an evolving package that target on
 	  the various methods to conduct Spatio-Temporal Analysis and
@@ -702,7 +698,6 @@
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
     <pkg                >IDE</pkg>
-    <pkg                >lgcp</pkg>
     <pkg                >lme4</pkg>
     <pkg                >M3</pkg>
     <pkg                >marcher</pkg>
