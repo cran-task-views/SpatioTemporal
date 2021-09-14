@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2021-05-26</version>
+  <version>2021-09-14</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -554,9 +554,6 @@
     simulations.
 </li>
     <li>
-<pkg>VTrack</pkg> Designed to facilitate the assimilation, analysis and synthesis of animal location and movement data collected by the VEMCO suite of acoustic transmitters and receivers. As well as database and geographic information capabilities the principal feature of VTrack is the qualification and identification of ecologically relevant events from the acoustic detection and sensor data. This procedure condenses the acoustic detection database by orders of magnitude, greatly enhancing the synthesis of acoustic detection data.
-</li>
-    <li>
 <pkg>wildlifeDI</pkg> Dynamic interaction refers to spatial-temporal associations
     in the movements of two (or more) animals. This package provides tools for
     calculating a suite of indices used for quantifying dynamic interaction with
@@ -753,7 +750,6 @@
     <pkg                >trajr</pkg>
     <pkg priority="core">trip</pkg>
     <pkg                >tripEstimation</pkg>
-    <pkg                >VTrack</pkg>
     <pkg                >wildlifeDI</pkg>
     <pkg priority="core">xts</pkg>
   </packagelist>
