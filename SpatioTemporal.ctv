@@ -431,13 +431,6 @@
     movements.
 </li>
     <li>
-<pkg>SDLfilter</pkg> Functions to filter GPS and/or Argos locations. The provided
-    filters remove temporal and spatial duplicates, fixes located at a given
-    height from estimated high tide line, and locations with high error as
-    proposed in Shimada et al. (2012) and
-    Shimada et al. (2016).
-</li>
-    <li>
 <pkg>SimilarityMeasures</pkg> Functions to run and assist four
   different similarity measures. The similarity
   measures included are: longest common
@@ -712,7 +705,6 @@
     <pkg                >RNetCDF</pkg>
     <pkg                >rsatscan</pkg>
     <pkg                >saccades</pkg>
-    <pkg                >SDLfilter</pkg>
     <pkg                >sf</pkg>
     <pkg                >SimilarityMeasures</pkg>
     <pkg                >SiMRiv</pkg>
