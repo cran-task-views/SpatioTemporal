@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2021-10-07</version>
+  <version>2021-10-23</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -482,16 +482,6 @@
     examining spatial-temporal patterns of moving polygons.
 </li>
     <li>
-<pkg>stplanr</pkg> Tools for transport planning with an emphasis on spatial transport
-    data and non-motorized modes. Enables common transport planning tasks including:
-    downloading and cleaning transport datasets; creating geographic "desire lines"
-    from origin-destination (OD) data; route assignment, locally and via
-    interfaces to routing services such as http://cyclestreets.net
-    calculation of route segment attributes such as bearing and aggregate flow,
-    and 'travel watershed' analysis.
-    See Lovelace and Ellison (2018).
-</li>
-    <li>
 <pkg>surveillance</pkg> Statistical methods for the modeling and monitoring of time series
         of counts, proportions and categorical data, as well as for the modeling
         of continuous-time point processes of epidemic phenomena.
@@ -724,7 +714,6 @@
     <pkg                >stampr</pkg>
     <pkg                >Stem</pkg>
     <pkg                >STMedianPolish</pkg>
-    <pkg                >stplanr</pkg>
     <pkg priority="core">surveillance</pkg>
     <pkg                >trackdem</pkg>
     <pkg                >trackdf</pkg>
