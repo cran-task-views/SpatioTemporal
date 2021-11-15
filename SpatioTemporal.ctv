@@ -3,7 +3,7 @@
   <name>SpatioTemporal</name>
   <topic>Handling and Analyzing Spatio-Temporal Data</topic>
   <maintainer email="edzer.pebesma@uni-muenster.de">Edzer Pebesma</maintainer>
-  <version>2021-11-08</version>
+  <version>2021-11-15</version>
 
   <info>
   <p>This task view aims at presenting R packages that are useful for 
@@ -332,14 +332,6 @@
 <pkg>gazepath</pkg> Eye-tracking data must be transformed into fixations and saccades before it can be analyzed. This package provides a non-parametric speed-based approach to do this on a trial basis. The method is especially useful when there are large differences in data quality, as the thresholds are adjusted accordingly. The same pre-processing procedure can be applied to all participants, while accounting for individual differences in data quality.
 </li>
     <li>
-<pkg>GeoLight</pkg> Provides basic functions for global
-    positioning based on light intensity measurements over time.
-    Positioning process includes the determination of sun events, a
-    discrimination of residency and movement periods, the
-    calibration of period-specific data and, finally, the
-    calculation of positions.
-</li>
-    <li>
 <pkg>marcher</pkg> A set of tools for likelihood-based estimation, model selection and testing of two- and three-range shift and migration models for animal movement data as described in Gurarie et al. (2017).  Provided movement data (X, Y and Time), including irregularly sampled data, functions estimate the time, duration and location of one or two range shifts, as well as the ranging area and auto-correlation structure of the movment.  Tests assess, for example, whether the shift was "significant", and whether a two-shift migration was a true return migration.
 </li>
     <li>
@@ -657,7 +649,6 @@
     <pkg                >foieGras</pkg>
     <pkg                >gapfill</pkg>
     <pkg                >gazepath</pkg>
-    <pkg                >GeoLight</pkg>
     <pkg                >googleVis</pkg>
     <pkg priority="core">gstat</pkg>
     <pkg                >IDE</pkg>
