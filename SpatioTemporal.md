@@ -1,9 +1,9 @@
 ---
 name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
-maintainer: Edzer Pebesma
+maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2021-12-30
+version: 2022-02-01
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
@@ -71,12 +71,20 @@ analysis, individually.
     classes (points, lines, polygons, grids) of
     `r pkg("sp")`, regular and irregular time series, and
     extend the powerful methods (selection, aggregation, plotting
-    coercion) from both packages.
+    coercion) from both packages. Package `r pkg("stars", priority = "core")`
+    replaces `r pkg("spacetime")` for full space-time grids; package
+    `r github("r-spatial/sftime")` replaces its irregulat spacetime data,
+    although `sf` objects from package `r pkg("sf")` can also do that.
 -   **Dedicated classes:** dedicated classes are offered for:
+    -   **data cubes:** package `r pkg("stars", priority = "core")` provides
+        methods to create, analyse and visualise raster and vector data cubes,
+        array data with arbitrary dimensionaly where some dimensions refer to
+        space (raster, vector) and/or time
     -   **Gridded/raster data:** package
-        `r pkg("raster", priority = "core")` deals with sets
+        `r pkg("raster", priority = "core")` and its successor 
+        `r pkg("terra", priority = "core")` deal with sets
         of rasters (called bricks, or stacks), and a set may reflect a
-        temporal sequence (use `setZ` on a brick or stack).
+        temporal sequence; both package also handle vector data
     -   **Lattice data:** package
         `r pkg("surveillance", priority = "core")` provides a
         class `sts`, which holds a `SpatialPolygonsDataFrame` slot for
@@ -86,7 +94,8 @@ analysis, individually.
         provides a class `ppx` that deals spatial and temporal
         coordinate. None of the point pattern classes mentioned support
         spatial or explicit temporal reference systems.
-    -   **Trajectory data:** Package
+    -   **Trajectory data:** see also the dedicated task view
+        `r view("Tracking")`; Package
         `r pkg("adehabitatLT", priority = "core")` offers a
         class `ltraj` for trajectories, and methods for analyzing them;
         the packages `r pkg("move")` and
@@ -138,6 +147,10 @@ analysis, individually.
     -   `r pkg("nlme")` and `r pkg("lme4")`
         contain functions to fit linear mixed models, and have
         facilities to model spatial and/or temporal effects.
+    -   `r pkg("mlr3spatiotempcv")` provides spatiotemporal resampling 
+        methods; it extends the mlr3 ML framework with spatio-temporal 
+        resampling methods to account for the presence of spatiotemporal 
+        autocorrelation in predictor variables. 
 -   **Point patterns**
     -   `r pkg("splancs")` provides methods for spatial and
         space-time point pattern analysis (khat, kernel3d, visualizing).
@@ -171,10 +184,10 @@ analysis, individually.
         The methods are tailored to data (images) observed at
         equally-spaced points in time. The package is illustrated with
         MODIS NDVI data.
--   **Moving objects, trajectories**
+-   **Moving objects, trajectories** see the dedicated task view `r view("Tracking")`
     -   There is a large (74+) and growing number of tracking,
-        trajectory, movement and related packages on CRAN. A review
-        paper by [Loo et al (2018)](https://arxiv.org/abs/1901.05935)
+        trajectory, movement and related packages on CRAN. The review
+        paper by [Loo et al (2018)](https://doi.org/10.1111/1365-2656.13116)
         provides a guide to summarize many available packages and their
         functionality.
     -   `r pkg("adehabitatLT")` A collection of tools for
