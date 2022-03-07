@@ -3,7 +3,7 @@ name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
 maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2022-02-01
+version: 2022-03-07
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
