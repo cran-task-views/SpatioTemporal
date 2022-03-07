@@ -154,11 +154,6 @@ analysis, individually.
 -   **Point patterns**
     -   `r pkg("splancs")` provides methods for spatial and
         space-time point pattern analysis (khat, kernel3d, visualizing).
-    -   `r pkg("stam")` is an evolving package that target
-        on the various methods to conduct Spatio-Temporal Analysis and
-        Modelling,including Exploratory Spatio-Temporal Analysis and
-        Inferred Spatio-Temporal Modelling, currently provides mostly
-        kernel density estimation.
     -   [ptproc](http://www.biostat.jhsph.edu/~rpeng/software/)
         (off-CRAN) provides methods and classes for spatio-temporal
         ("multi-dimensional") point process.
@@ -442,10 +437,6 @@ analysis, individually.
         achieve the clustering goal. Each component is itself a mixture
         model of polynomial autoregressive regressions whose the
         logistic weights consider the spatial and temporal information.
-    -   `r pkg("stam")` stam is an evolving package that
-        target on the various methods to conduct Spatio-Temporal
-        Analysis and Modelling,including Exploratory Spatio-Temporal
-        Analysis and Inferred Spatio-Temporal Modelling.
     -   `r pkg("stampr")` Perform spatial temporal analysis
         of moving polygons; a longstanding analysis problem in
         Geographic Information Systems. Facilitates directional
