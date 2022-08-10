@@ -195,10 +195,6 @@ analysis, individually.
         trajectories using spline-based interpolation. Intended to be
         used exploratory data analysis, and perhaps for preparation of
         presentations.
-    -   `r pkg("argosfilter")` Functions to filters animal
-        satellite tracking data obtained from Argos. It is especially
-        indicated for telemetry studies of marine animals, where Argos
-        locations are predominantly of low-quality.
     -   `r pkg("BayesianAnimalTracker")` Bayesian melding
         approach to combine the GPS observations and Dead-Reckoned path
         for an accurate animal's track, or equivalently, use the GPS
