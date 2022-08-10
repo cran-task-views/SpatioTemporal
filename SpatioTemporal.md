@@ -199,10 +199,6 @@ analysis, individually.
         satellite tracking data obtained from Argos. It is especially
         indicated for telemetry studies of marine animals, where Argos
         locations are predominantly of low-quality.
-    -   `r pkg("AtmRay")` Calculates acoustic traveltimes
-        and ray paths in 1-D, linear atmospheres. Later versions will
-        support arbitrary 1-D atmospheric models, such as radiosonde
-        measurements and standard reference atmospheres.
     -   `r pkg("BayesianAnimalTracker")` Bayesian melding
         approach to combine the GPS observations and Dead-Reckoned path
         for an accurate animal's track, or equivalently, use the GPS
