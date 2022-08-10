@@ -3,7 +3,7 @@ name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
 maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2022-03-07
+version: 2022-08-10
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
@@ -387,14 +387,6 @@ analysis, individually.
         bootstrap envelope. Tools are also provided for editing the
         river networks, meaning there is no reliance on external
         software.
-    -   `r pkg("saccades")` Functions for detecting eye
-        fixations in raw eye-tracking data. The detection is done using
-        a velocity-based algorithm for saccade detection proposed by
-        Ralf Engbert and Reinhold Kliegl in 2003. The algorithm labels
-        segments as saccades when the velocity of the eye movement
-        exceeds a certain threshold. Anything between two saccades is
-        considered a fixation. Thus the algorithm is not appropriate for
-        data containing episodes of smooth pursuit eye movements.
     -   `r pkg("SimilarityMeasures")` Functions to run and
         assist four different similarity measures. The similarity
         measures included are: longest common subsequence (LCSS),
