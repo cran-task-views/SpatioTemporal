@@ -3,7 +3,7 @@ name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
 maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2022-08-10
+version: 2022-08-27
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
@@ -128,7 +128,7 @@ analysis, individually.
     -   `r pkg("spBayes")` provides functions for fitting
         Bayesian dynamic space-time regression models for settings where
         space is viewed as continuous but time is taken to be discrete.
-    -   `r pkg("Stem")` provides estimation of the
+    -   archived `Stem` provided estimation of the
         parameters of a spatio-temporal model using the EM algorithm,
         estimation of the parameter standard errors using a
         spatio-temporal parametric bootstrap, spatial mapping.
