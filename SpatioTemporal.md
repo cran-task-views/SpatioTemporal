@@ -288,9 +288,6 @@ analysis, individually.
         desired, generates track identifiers that are unique over the
         clusters. See the project page for more information and
         examples.
-    -   `r pkg("mkde")` Provides functions to compute and
-        visualize movement-based kernel density estimates (MKDEs) for
-        animal utilization distributions in 2 or 3 spatial dimensions.
     -   `r pkg("momentuHMM")` Extended tools for analyzing
         telemetry data using generalized hidden Markov models. Features
         of momentuHMM (pronounced ``momentum'') include data
