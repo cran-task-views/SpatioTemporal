@@ -249,8 +249,6 @@ analysis, individually.
         horrible mess, typically under the form of a '.asc' file. The
         file in question is an assorted collection of messages, events
         and raw data. This R package will attempt to make sense of it.
-    -   `r pkg("eyetracking")` Misc function for working
-        with eyetracking data
     -   `r pkg("fishmove")` Functions to predict fish
         movement parameters plotting leptokurtic fish dispersal kernels
         (see Radinger and Wolter, 2014: Patterns and predictors of fish
