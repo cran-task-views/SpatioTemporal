@@ -3,7 +3,7 @@ name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
 maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2022-08-27
+version: 2022-08-31
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
@@ -405,10 +405,6 @@ analysis, individually.
         with measurement error according to Pozdnyakov et al. (2014),
         and moving-resting-handling process with embedded Brownian
         motion, Pozdnyakov et al. (2018).
-    -   `r pkg("SpaTimeClus")` Mixture model is used to
-        achieve the clustering goal. Each component is itself a mixture
-        model of polynomial autoregressive regressions whose the
-        logistic weights consider the spatial and temporal information.
     -   `r pkg("stampr")` Perform spatial temporal analysis
         of moving polygons; a longstanding analysis problem in
         Geographic Information Systems. Facilitates directional
