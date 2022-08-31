@@ -198,9 +198,6 @@ analysis, individually.
         measurement errors in the GPS observations into account and
         provide uncertainty statement about the corrected path. The main
         calculation can be done by the BMAnimalTrack function.
-    -   `r pkg("BBMM")` The model provides an empirical
-        estimate of a movement path using discrete location data
-        obtained at relatively short time intervals.
     -   `r pkg("bcpa")` The Behavioral Change Point Analysis
         (BCPA) is a method of identifying hidden shifts in the
         underlying parameters of a time series, developed specifically
