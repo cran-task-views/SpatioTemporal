@@ -116,10 +116,6 @@ analysis, individually.
         range of spatio-temporal models.
     -   `r pkg("IDE")` provides functionality for modelling
         spatio-temporal data using the integro-difference equation.
-    -   `r pkg("RandomFields", priority = "core")` provides
-        kriging, conditional simulation, and covariance functions and
-        maximum likelihood function fitting for a very wide range of
-        spatio-temporal covariance models.
     -   the `r pkg("spTimer")` package is able to fit,
         spatially predict and temporally forecast large amounts of
         space-time data using Bayesian Gaussian Process (GP) Models,
