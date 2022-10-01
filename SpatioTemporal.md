@@ -326,12 +326,6 @@ analysis, individually.
         literature. This package is discussed extensively in Dan
         Kelley's book Oceanographic Analysis with R, published in 2018
         by 'Springer-Verlag' with ISBN 978-1-4939-8842-6.
-    -   `r pkg("opentraj")` opentraj uses the Hybrid Single
-        Particle Lagrangian Integrated Trajectory Model (HYSPLIT) for
-        computing simple air parcel trajectories. The functions in this
-        package allow users to run HYSPLIT for trajectory calculations,
-        as well as get its results, directly from R without using any
-        GUI interface.
     -   `r pkg("rerddapXtracto")` Contains three functions
         that access environmental data from any 'ERDDAP' data web
         service. The rxtracto() function extracts data along a
