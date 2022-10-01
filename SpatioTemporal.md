@@ -3,7 +3,7 @@ name: SpatioTemporal
 topic: Handling and Analyzing Spatio-Temporal Data
 maintainer: Edzer Pebesma, Roger Bivand
 email: edzer.pebesma@uni-muenster.de
-version: 2022-08-31
+version: 2022-10-01
 source: https://github.com/cran-task-views/SpatioTemporal/
 ---
 
@@ -249,10 +249,6 @@ analysis, individually.
         horrible mess, typically under the form of a '.asc' file. The
         file in question is an assorted collection of messages, events
         and raw data. This R package will attempt to make sense of it.
-    -   `r pkg("fishmove")` Functions to predict fish
-        movement parameters plotting leptokurtic fish dispersal kernels
-        (see Radinger and Wolter, 2014: Patterns and predictors of fish
-        dispersal in rivers. Fish and Fisheries. 15:456-473.)
     -   `r pkg("foieGras")` Fits continuous-time random walk
         and correlated random walk state-space models to filter Argos
         satellite location data. Template Model Builder ('TMB') is
