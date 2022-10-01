@@ -520,10 +520,6 @@ Packages for retrieving data are:
 -   `r pkg("ncdf4")` and `r pkg("RNetCDF")`
     allow reading and writing
     [netcdf](http://www.unidata.ucar.edu/software/netcdf/) files.
--   `r pkg("M3")` contains functions to read in and
-    manipulate air quality model output from Models3-formatted files.
-    This format is used by the Community Multiscale Air Quaility (CMAQ)
-    model.
 -   `r pkg("rmatio")` is a package for reading and writing
     Matlab MAT files from R.
 
