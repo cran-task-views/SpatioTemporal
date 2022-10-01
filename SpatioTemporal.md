@@ -288,12 +288,6 @@ analysis, individually.
         modelling of parameters, decoding of the state process,
         visualization of fitted models, model checking and selection,
         and simulation. See McClintock and Michelot (2018).
-    -   `r pkg("mousetrack")` Extract from two-dimensional
-        x-y coordinates of an arm-reaching trajectory, several dependent
-        measures such as area under the curve, latency to start the
-        movement, x-flips, etc.; which characterize the action-dynamics
-        of the response. Mainly developed to analyze data coming from
-        mouse-tracking experiments.
     -   `r pkg("mousetrap")` Mouse-tracking, the analysis of
         mouse movements in computerized experiments, is a method that is
         becoming increasingly popular in the cognitive sciences. The
