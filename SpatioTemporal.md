@@ -164,8 +164,6 @@ analysis, individually.
     -   `r pkg("nlme")` and `r pkg("lme4")`
         contain functions to fit linear mixed models, and have
         facilities to model spatial and/or temporal effects.
-    -   `r pkg("rsatscan")` provides an R interface to the
-        free (but non-open source) program SaTScan.
     -   `r pkg("CARBayesST")` implements a class of
         spatio-temporal generalised linear mixed models for areal unit
         data, with inference in a Bayesian setting using Markov chain
