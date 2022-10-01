@@ -191,13 +191,6 @@ analysis, individually.
         trajectories using spline-based interpolation. Intended to be
         used exploratory data analysis, and perhaps for preparation of
         presentations.
-    -   `r pkg("BayesianAnimalTracker")` Bayesian melding
-        approach to combine the GPS observations and Dead-Reckoned path
-        for an accurate animal's track, or equivalently, use the GPS
-        observations to correct the Dead-Reckoned path. It can take the
-        measurement errors in the GPS observations into account and
-        provide uncertainty statement about the corrected path. The main
-        calculation can be done by the BMAnimalTrack function.
     -   `r pkg("bcpa")` The Behavioral Change Point Analysis
         (BCPA) is a method of identifying hidden shifts in the
         underlying parameters of a time series, developed specifically
