@@ -148,7 +148,7 @@ analysis, individually.
         resampling methods to account for the presence of spatiotemporal 
         autocorrelation in predictor variables. 
     -   `r pkg("sdmTMB")` Implements spatial and spatiotemporal 
-        predictive-process generalized linear mixed effect models) using 
+        predictive-process generalized linear mixed effect models using 
         'TMB', 'INLA', and the SPDE approximation to Gaussian random fields.         
 -   **Point patterns**
     -   `r pkg("splancs")` provides methods for spatial and
