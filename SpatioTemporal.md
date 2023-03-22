@@ -511,6 +511,8 @@ Packages for retrieving data are:
     [netcdf](http://www.unidata.ucar.edu/software/netcdf/) files.
 -   `r pkg("rmatio")` is a package for reading and writing
     Matlab MAT files from R.
+-   `r pkg("rstac")` provides functions to access, search and download
+    spacetime earth observation data via [SpatioTemporal Asset Catalog](https://stacspec.org).
 
 
 
