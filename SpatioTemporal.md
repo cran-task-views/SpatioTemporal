@@ -74,7 +74,7 @@ analysis, individually.
     coercion) from both packages. Package `r pkg("stars", priority = "core")`
     replaces `r pkg("spacetime")` for full space-time grids; package
     `r github("r-spatial/sftime")` replaces its irregulat spacetime data,
-    although `sf` objects from package `r pkg("sf")` can also do that.
+    although `sf` objects from package `r pkg("sf")` can also do that. Package `r pkg("cubble")` provides an alternative to pivot spacetime data into a spatial (nested) form and a temporal (long) form to represent full space-time grids and sparse space-time grids.  
 -   **Dedicated classes:** dedicated classes are offered for:
     -   **data cubes:** package `r pkg("stars", priority = "core")` provides
         methods to create, analyse and visualise raster and vector data cubes,
