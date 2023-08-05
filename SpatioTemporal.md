@@ -184,10 +184,6 @@ analysis, individually.
         functionality.
     -   `r pkg("adehabitatLT")` A collection of tools for
         the analysis of animal movements.
-    -   `r pkg("animalTrack")` 2D and 3D animal tracking
-        data can be used to reconstruct tracks through time/space with
-        correction based on known positions. 3D visualization of animal
-        position and attitude.
     -   `r pkg("anipaths")` Animation of observed
         trajectories using spline-based interpolation. Intended to be
         used exploratory data analysis, and perhaps for preparation of
