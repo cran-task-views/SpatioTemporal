@@ -298,7 +298,7 @@ analysis, individually.
         processing of tracking data, fitting hidden Markov models to
         movement data, visualization of data and fitted model, decoding
         of the state process.
-    -   `r pkg("moveVis")` Tools to visualize movement data
+    -   `r github("16EAGLE/moveVis")` Tools to visualize movement data
         (e.g. from GPS tracking) and temporal changes of environmental
         data (e.g. from remote sensing) by creating video animations.
     -   `r pkg("moveWindSpeed")` Estimating wind speed from
