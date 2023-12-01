@@ -249,14 +249,6 @@ analysis, individually.
         estimate two sets of location states corresponding to: 1) each
         observation, which are (usually) irregularly timed; and 2)
         user-specified time intervals (regular or irregular).
-    -   `r pkg("gazepath")` Eye-tracking data must be
-        transformed into fixations and saccades before it can be
-        analyzed. This package provides a non-parametric speed-based
-        approach to do this on a trial basis. The method is especially
-        useful when there are large differences in data quality, as the
-        thresholds are adjusted accordingly. The same pre-processing
-        procedure can be applied to all participants, while accounting
-        for individual differences in data quality.
     -   `r pkg("marcher")` A set of tools for
         likelihood-based estimation, model selection and testing of two-
         and three-range shift and migration models for animal movement
