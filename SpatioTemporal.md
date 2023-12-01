@@ -73,7 +73,7 @@ analysis, individually.
     extend the powerful methods (selection, aggregation, plotting
     coercion) from both packages. Package `r pkg("stars", priority = "core")`
     replaces `r pkg("spacetime")` for full space-time grids; package
-    `r github("r-spatial/sftime")` replaces its irregulat spacetime data,
+    `r pkg("sftime")` replaces its irregulat spacetime data,
     although `sf` objects from package `r pkg("sf")` can also do that. Package `r pkg("cubble")` provides an alternative to pivot spacetime data into a spatial (nested) form and a temporal (long) form to represent full space-time grids and sparse space-time grids.  
 -   **Dedicated classes:** dedicated classes are offered for:
     -   **data cubes:** package `r pkg("stars", priority = "core")` provides
@@ -239,7 +239,7 @@ analysis, individually.
         horrible mess, typically under the form of a '.asc' file. The
         file in question is an assorted collection of messages, events
         and raw data. This R package will attempt to make sense of it.
-    -   `r pkg("foieGras")` Fits continuous-time random walk
+    -   `r github("ianjonsen/aniMotum")` Fits continuous-time random walk
         and correlated random walk state-space models to filter Argos
         satellite location data. Template Model Builder ('TMB') is
         used for fast estimation. The Argos data can be: (older) least
