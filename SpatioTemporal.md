@@ -74,7 +74,7 @@ analysis, individually.
     coercion) from both packages. Package `r pkg("stars", priority = "core")`
     replaces `r pkg("spacetime")` for full space-time grids; package
     `r pkg("sftime")` replaces its irregulat spacetime data,
-    although `sf` objects from package `r pkg("sf")` can also do that. Package `r pkg("cubble")` provides an alternative to pivot spacetime data into a spatial (nested) form and a temporal (long) form to represent full space-time grids and sparse space-time grids.  
+    although `sf` objects from package `r pkg("sf")` can also do that. Package `r pkg("cubble")` provides an alternative to pivot spacetime data into a spatial (nested) form and a temporal (long) form to represent full space-time grids and sparse space-time grids.
 -   **Dedicated classes:** dedicated classes are offered for:
     -   **data cubes:** package `r pkg("stars", priority = "core")` provides
         methods to create, analyse and visualise raster and vector data cubes,
@@ -149,7 +149,7 @@ analysis, individually.
         autocorrelation in predictor variables. 
     -   `r pkg("sdmTMB")` Implements spatial and spatiotemporal 
         predictive-process generalized linear mixed effect models using 
-        'TMB', 'INLA', and the SPDE approximation to Gaussian random fields.         
+        'TMB', 'INLA', and the SPDE approximation to Gaussian random fields.
 -   **Point patterns**
     -   `r pkg("splancs")` provides methods for spatial and
         space-time point pattern analysis (khat, kernel3d, visualizing).
