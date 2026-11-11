@@ -156,6 +156,11 @@ analysis, individually.
     -   [ptproc](http://www.biostat.jhsph.edu/~rpeng/software/)
         (off-CRAN) provides methods and classes for spatio-temporal
         ("multi-dimensional") point process.
+    -   `r pkg("rmoriebricklayer")` fits, simulates and checks
+        self-exciting Hawkes processes and tests near-repeat space-time
+        clustering (Knox test); it also implements search theory for search
+        and rescue planning (lateral range and sweep width, probability of
+        detection, probability-of-containment maps and optimal effort).
 -   **Lattice data**
     -   `r pkg("surveillance")` provides temporal and
         spatio-temporal modeling and monitoring of epidemic phenomena.
